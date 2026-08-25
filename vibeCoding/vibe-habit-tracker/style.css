@@ -1,0 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(
+    rgb(247, 238, 255),
+    aliceblue
+  );
+  min-height: 100vh;
+  color: #222;
+}
+
+h1 {
+  padding: 80px 30px 0px;
+  font-size: 2.2rem;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#app {
+  padding: 0px 30px;
+}
+
+p {
+  padding: 0px 30px;
+}
+
+.month-controls {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.controls {
+  display: flex;
+  margin-top: 20px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: white;
+  transition:
+    transform 0.15s,
+    background 0.15s;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: max-content;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+}
+
+th {
+  background: rgb(245, 245, 255);
+}
+
+th:first-child,
+td:first-child {
+  width: 180px;
+  text-align: left;
+  padding-left: 12px;
+  font-weight: bold;
+}
+
+.day-cell {
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.empty {
+  background: white;
+}
+
+.done {
+  background: #7edc89;
+}
+
+.failed {
+  background: #ff8b8b;
+}
+
+.allowed {
+  background: #d8c7ff;
+}
+
+.A td:first-child {
+  background: mintcream;
+}
+
+.B td:first-child {
+  background: lavender;
+}
+
+.habit-name-wrapper {
+  display: grid;
+  grid-template-columns: 9fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 0px;
+}
+
+.habit-actions {
+  display: flex;
+  gap: 2px;
+}
+
+.delete-btn {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0,0,0,0.4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.popup input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.category-select {
+  display: flex;
+  gap: 10px;
+}
+
+.category-btn {
+  flex: 1;
+}
+
+.category-a {
+  background: mintcream;
+}
+
+.category-b {
+  background: lavender;
+}
+
+.active-category {
+  outline: 3px solid black;
+}
+
+.move-up-btn,
+.move-down-btn,
+.delete-btn {
+
+  width: 28px;
+  height: 28px;
+
+  font-size: 12px;
+
+  padding: 0;
+
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+button:focus,
+button:focus-visible,
+button:active {
+  outline: none;
+  background: white;
+}

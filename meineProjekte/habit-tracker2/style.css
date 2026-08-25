@@ -1,0 +1,44 @@
+main {
+    padding: 30px;
+    background: linear-gradient(rgb(226, 226, 255), rgb(255, 231, 255));
+    color: rgb(52, 130, 198);
+    width: max-content;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    border: 2px solid grey;
+    width: 1650px;
+    height: 300px;
+    table-layout: fixed;
+}
+
+th {
+    border: 2px solid grey;
+    height: 44px;
+}
+
+td  {
+    border: 2px solid grey ;
+    height: 44px;
+}
+
+th:first-child{
+    width: 150px;
+    border: none;
+}
+
+td:first-child {
+    text-align: center;
+    width: 150px;
+}
+
+.green {
+    background-color: rgb(208, 255, 239);
+}
+
+.red {
+    background-color: rgb(255, 188, 255);
+}
+

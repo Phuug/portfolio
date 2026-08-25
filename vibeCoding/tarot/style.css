@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #1b1b2f;
+    color: white;
+    display: grid;
+}
+
+button {
+    margin: 20px;
+    justify-self: center;
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 150px;
+}
+
+#card {
+    margin-top: 30px;
+    display: flexbox;
+}
+
+#cardImage {
+    width: 250px;
+    display: none;
+    justify-self: center;
+    border-radius: 12px;
+}
+
+#cardName {
+    margin-top: 20px;
+}
+
+#cardMeaning {
+    width: 300px;
+    margin: auto;
+}
