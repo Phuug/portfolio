@@ -13,8 +13,14 @@ if (savedBoxes) {
 boxes.forEach(box => {
     box.addEventListener("click", () => {
 
-        if(!box.classList.contains("green") &&
+        if(!box.classList.contains("blue") &&
+        !box.classList.contains("green") &&
         !box.classList.contains("red")) {
+        box.classList.add("blue");
+        }
+
+        else if(box.classList.contains("blue")) {
+        box.classList.remove("blue");
         box.classList.add("green");
         }
 
@@ -30,7 +36,10 @@ boxes.forEach(box => {
         const states = [];
 
         boxes.forEach(box => {
-            if (box.classList.contains("green")) {
+            if (box.classList.contains("blue")) {
+                states.push("blue");
+            }
+            else if (box.classList.contains("green")) {
                 states.push("green");
             }
             else if (box.classList.contains("red")) {
