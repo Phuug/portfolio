@@ -34,14 +34,22 @@ td:first-child {
     width: 150px;
 }
 
+.blue {
+    background-color: rgb(178, 231, 255);
+}
+
+.turkis {
+    background-color: rgb(142, 237, 227);
+}
+
 .green {
-    background-color: rgb(208, 255, 239);
+    background-color: rgb(161, 231, 207);
+}
+
+.violet {
+    background-color: rgb(196, 156, 233);
 }
 
 .red {
     background-color: rgb(255, 188, 255);
-}
-
-.blue {
-    background-color: rgb(178, 231, 255);
 }

@@ -14,18 +14,30 @@ boxes.forEach(box => {
     box.addEventListener("click", () => {
 
         if(!box.classList.contains("blue") &&
+        !box.classList.contains("turkis") &&
         !box.classList.contains("green") &&
+        !box.classList.contains("violet") &&
         !box.classList.contains("red")) {
         box.classList.add("blue");
         }
 
         else if(box.classList.contains("blue")) {
         box.classList.remove("blue");
+        box.classList.add("turkis");
+        }
+
+        else if(box.classList.contains("turkis")) {
+        box.classList.remove("turkis");
         box.classList.add("green");
         }
 
         else if(box.classList.contains("green")) {
         box.classList.remove("green");
+        box.classList.add("violet");
+        }
+
+        else if(box.classList.contains("violet")) {
+        box.classList.remove("violet");
         box.classList.add("red");
         }
 
