@@ -51,8 +51,14 @@ boxes.forEach(box => {
             if (box.classList.contains("blue")) {
                 states.push("blue");
             }
+            else if (box.classList.contains("turkis")) {
+                states.push("turkis");
+            }
             else if (box.classList.contains("green")) {
                 states.push("green");
+            }
+            else if (box.classList.contains("violet")) {
+                states.push("violet");
             }
             else if (box.classList.contains("red")) {
                 states.push("red");
