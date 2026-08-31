@@ -17,13 +17,12 @@ button {
 
 #card {
     margin-top: 30px;
-    display: flexbox;
 }
 
 #cardImage {
     width: 250px;
-    display: none;
-    justify-self: center;
+    display: block;
+    margin: 0 auto;
     border-radius: 12px;
 }
 
