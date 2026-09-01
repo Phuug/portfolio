@@ -1,3 +1,14 @@
+body{
+  background-color: rgb(255, 0, 0);
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: blue;
 }

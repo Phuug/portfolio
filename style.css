@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: rgb(109, 74, 205);
+    background-color: rgba(121, 121, 156, 0.628);
     display: flex;
     justify-content: end;
     height: 38px;
@@ -12,7 +12,7 @@ header {
 
 main {
     min-height: 88vh;
-    background: linear-gradient(27deg, rgb(253, 225, 253),white, rgb(239, 234, 239));
+    background: linear-gradient(123deg, rgb(253, 225, 253),white, rgb(176, 175, 176));
     }
 
 .indexMain {
@@ -21,7 +21,7 @@ main {
 }
 
 footer {
-    background-color: rgb(8, 95, 127);
+    background-color: rgba(121, 121, 156, 0.628);
     display: flex;
 }
 
