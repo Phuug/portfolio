@@ -3,24 +3,24 @@ main {
     background: linear-gradient(rgb(226, 226, 255), rgb(255, 231, 255));
     color: rgb(52, 130, 198);
     width: max-content;
-    min-width: 100%;
+    min-width: max-content;
     box-sizing: border-box;
 }
 
 table {
-    border: 2px solid grey;
+    border: 2px solid rgba(128, 128, 128, 0.403);
     width: 1650px;
     height: 300px;
     table-layout: fixed;
 }
 
 th {
-    border: 2px solid grey;
+    border: 2px solid rgba(128, 128, 128, 0.403);
     height: 44px;
 }
 
 td  {
-    border: 2px solid grey ;
+    border: 2px solid rgba(128, 128, 128, 0.403);
     height: 44px;
 }
 
