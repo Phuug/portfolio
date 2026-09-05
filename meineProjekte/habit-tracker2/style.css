@@ -2,8 +2,7 @@ main {
     padding: 30px;
     background: linear-gradient(rgb(226, 226, 255), rgb(255, 231, 255));
     color: rgb(52, 130, 198);
-    width: max-content;
-    min-width: max-content;
+    width: 1700px;
     box-sizing: border-box;
 }
 
