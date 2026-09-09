@@ -1,5 +1,8 @@
 const output = document.querySelector(".output");
-navigator.geolocation.getCurrentPosition(loadWeather);
+navigator.geolocation.getCurrentPosition(loadWeather, handleError);
+function handleError(error) {
+    console.error(error);
+}
 
 async function loadWeather(position) {
             try {
