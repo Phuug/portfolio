@@ -2,8 +2,10 @@ const output = document.querySelector(".output");
 navigator.geolocation.getCurrentPosition(loadWeather, handleError);
 function handleError(error) {
     console.error(error);
+    output.innerHTML = `
+    <p>Standort sagt nein</p>
+    `
 }
-
 async function loadWeather(position) {
             try {
                 const latitude = position.coords.latitude;
