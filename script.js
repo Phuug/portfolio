@@ -9,11 +9,16 @@ const projects = document.querySelectorAll(".project");
 const mainProject = document.querySelector(".mainProject");
 
 projects.forEach(project => {
-    project.addEventListener("click", (event) => {
+    project.addEventListener("click", event => {
         event.preventDefault();
-        const projectValue = project.innerHTML;
+
+        const link = project.querySelector("a");
+        const img = project.querySelector("img");
+
         mainProject.innerHTML = `
-        ${projectValue}
-        `
+            <a href="${link.href}">
+                <img src="${img.src}" alt="${img.alt}">
+            </a>
+        `;
     });
 });
