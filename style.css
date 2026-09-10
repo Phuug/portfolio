@@ -201,3 +201,22 @@ footer p {
     width: 90%;
     height: 90%;
 }
+
+.aiProjects {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.aiProject {    
+    width: 95%;
+    height: 90%;
+    aspect-ratio: 9/6;
+}
+
+.aiProject img {
+    border: 1px solid rgba(128, 128, 128, 0.45);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+}
