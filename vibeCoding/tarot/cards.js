@@ -3,468 +3,778 @@ const cards = [
         id: 0,
         name: "Der Narr",
         image: "images/der-narr.jpg",
-        meaning: "Neuanfang, Freiheit und Vertrauen."
+        meaning: "Neuanfang, Freiheit und Vertrauen.",
+        allgemein: "Der Narr steht für einen Neuanfang und den Mut, sich auf etwas Unbekanntes einzulassen. Nicht jeder Schritt muss im Voraus geplant sein. Manchmal entsteht Freiheit gerade dadurch, dass du alte Vorstellungen loslässt und deinem eigenen Weg vertraust. Die Karte lädt dazu ein, neugierig zu bleiben, Erfahrungen zu sammeln und dem Leben mit Offenheit zu begegnen.",
+        gesundheit: "Im Bereich Gesundheit kann der Narr für einen frischen Umgang mit Körper und Wohlbefinden stehen. Neue Gewohnheiten, mehr Bewegung oder ein veränderter Alltag können neue Energie bringen. Gleichzeitig erinnert die Karte daran, Freiheit nicht mit Leichtsinn zu verwechseln: Höre auf deinen Körper und probiere Neues mit einem gesunden Maß an Aufmerksamkeit aus.",
+        beruf: "Beruflich deutet der Narr auf neue Möglichkeiten, Projekte oder einen Richtungswechsel hin. Vielleicht kennst du das Ziel noch nicht genau, spürst aber den Wunsch, etwas auszuprobieren und eigene Erfahrungen zu sammeln. Vertrauen in die eigenen Fähigkeiten kann jetzt wichtiger sein als ein vollkommen ausgearbeiteter Plan. Der erste Schritt eröffnet oft Möglichkeiten, die vorher noch nicht sichtbar waren.",
+        liebe: "In der Liebe steht der Narr für Offenheit, Leichtigkeit und die Bereitschaft, sich auf Begegnungen einzulassen. Eine neue Verbindung kann entstehen oder eine bestehende Beziehung wieder mehr Freiheit und Spontaneität bekommen. Vertrauen bedeutet dabei nicht, Warnzeichen zu ignorieren, sondern Nähe zuzulassen, ohne alles kontrollieren zu müssen."
     },
     {
         id: 1,
         name: "Der Magier",
         image: "images/der-magier.jpg",
-        meaning: "Willenskraft, Kreativität und Handlung."
+        meaning: "Willenskraft, Kreativität und Handlung.",
+        allgemein: "Der Magier steht für Willenskraft, Kreativität und die Fähigkeit, Ideen in die Tat umzusetzen. Die notwendigen Möglichkeiten und Fähigkeiten sind bereits vorhanden oder können gezielt entwickelt werden. Jetzt geht es darum, die eigene Energie bewusst einzusetzen, Initiative zu zeigen und aus Gedanken konkrete Handlungen entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht der Magier für einen aktiven und selbstbestimmten Umgang mit dem eigenen Wohlbefinden. Du kannst bewusst Einfluss auf deine Gewohnheiten nehmen und deine vorhandenen Kräfte gezielt einsetzen. Kleine, konsequente Handlungen können dabei mehr bewirken als bloße Absichten. Die Karte ermutigt dazu, Verantwortung zu übernehmen und gleichzeitig die eigenen Grenzen wahrzunehmen.",
+        beruf: "Beruflich steht der Magier für Eigeninitiative, Fähigkeiten und kreative Umsetzung. Eine Idee kann jetzt durch entschlossenes Handeln zu einem konkreten Projekt werden. Nutze deine vorhandenen Kenntnisse, lerne gezielt dazu und warte nicht darauf, dass perfekte Bedingungen entstehen. Willenskraft und Kreativität entfalten ihre Wirkung besonders dann, wenn du sie in praktische Ergebnisse verwandelst.",
+        liebe: "In der Liebe steht der Magier für Initiative, Ausdruckskraft und die Fähigkeit, eine Verbindung aktiv mitzugestalten. Gefühle und Wünsche dürfen nicht nur gedacht, sondern auch durch Worte und Handlungen gezeigt werden. Bei neuen Begegnungen kann selbstbewusstes Auftreten Anziehung erzeugen, während in bestehenden Beziehungen kreative Impulse neue Dynamik schaffen können."
     },
     {
         id: 2,
         name: "Die Hohepriesterin",
         image: "images/die-hohepriesterin.jpg",
-        meaning: "Intuition, Weisheit und innere Stimme."
+        meaning: "Intuition, Weisheit und innere Stimme.",
+        allgemein: "Die Hohepriesterin steht für Intuition, Weisheit und die Verbindung zur eigenen inneren Stimme. Nicht jede Antwort muss durch äußeres Handeln oder logisches Denken gefunden werden. Manchmal liegt das Wesentliche bereits im eigenen Inneren. Die Karte lädt dazu ein, aufmerksam wahrzunehmen, sich Zeit für Stille zu nehmen und den eigenen Empfindungen zu vertrauen.",
+        gesundheit: "Im Bereich Gesundheit steht die Hohepriesterin für eine bewusste Wahrnehmung des eigenen Körpers und seiner Signale. Ruhe und Aufmerksamkeit können dabei helfen, Bedürfnisse und Veränderungen frühzeitig zu erkennen. Die Karte ermutigt dazu, die eigene Körperwahrnehmung ernst zu nehmen, ohne dabei auf fachlichen Rat und verlässliche Informationen zu verzichten.",
+        beruf: "Beruflich weist die Hohepriesterin darauf hin, neben Wissen und Fakten auch die eigene Intuition einzubeziehen. Nicht jede Entscheidung muss sofort getroffen werden. Beobachtung, Geduld und ein gutes Gespür für Situationen können wertvolle Hinweise geben. Vertraue auf deine Erfahrung und innere Stimme, während du gleichzeitig die notwendigen Informationen sammelst.",
+        liebe: "In der Liebe steht die Hohepriesterin für tiefes Verständnis, feine Wahrnehmung und unausgesprochene Gefühle. Manchmal lässt sich eine Verbindung nicht allein durch Worte erklären. Die Karte lädt dazu ein, auf die eigene innere Stimme zu hören und gleichzeitig aufmerksam wahrzunehmen, was zwischen zwei Menschen geschieht. Tiefe Nähe kann entstehen, wenn Gefühle Raum bekommen und nicht erzwungen werden."
     },
     {
         id: 3,
         name: "Die Herrscherin",
         image: "images/die-herrscherin.jpg",
-        meaning: "Fülle, Fürsorge und Wachstum."
+        meaning: "Fülle, Fürsorge und Wachstum.",
+        allgemein: "Die Herrscherin steht für Fülle, Fürsorge und natürliches Wachstum. Sie erinnert daran, dass sich vieles entwickelt, wenn es die richtige Aufmerksamkeit, Zeit und Pflege erhält. Die Karte lädt dazu ein, das bereits Vorhandene wertzuschätzen, die eigenen Möglichkeiten zu nähren und gleichzeitig offen für neue Entwicklungen zu bleiben.",
+        gesundheit: "Im Bereich Gesundheit steht die Herrscherin für Fürsorge gegenüber dem eigenen Körper und seinen Bedürfnissen. Ausreichende Erholung, gute Ernährung, Bewegung und ein angenehmes Umfeld können die Grundlage für langfristiges Wohlbefinden schaffen. Die Karte ermutigt dazu, Gesundheit nicht nur durch Disziplin, sondern auch durch einen liebevollen und nachhaltigen Umgang mit sich selbst zu fördern.",
+        beruf: "Beruflich steht die Herrscherin für Wachstum, Kreativität und die Entwicklung von etwas Wertvollem. Projekte, Fähigkeiten oder berufliche Möglichkeiten können sich entfalten, wenn sie kontinuierlich gepflegt werden. Statt schnelle Ergebnisse zu erzwingen, geht es darum, gute Bedingungen zu schaffen, vorhandene Ressourcen sinnvoll einzusetzen und dem eigenen Werk Zeit zum Wachsen zu geben.",
+        liebe: "In der Liebe steht die Herrscherin für Wärme, Zuneigung und eine Verbindung, die durch gegenseitige Fürsorge wachsen kann. Sie lädt dazu ein, Gefühle offen zu zeigen und gleichzeitig den Bedürfnissen des anderen Raum zu geben. Bestehende Beziehungen können an Tiefe gewinnen, während neue Begegnungen das Potenzial für eine liebevolle und erfüllende Verbindung besitzen."
     },
     {
         id: 4,
         name: "Der Herrscher",
         image: "images/der-herrscher.jpg",
-        meaning: "Ordnung, Verantwortung und Stabilität."
+        meaning: "Ordnung, Verantwortung und Stabilität.",
+        allgemein: "Der Herrscher steht für Ordnung, Verantwortung und Stabilität. Er erinnert daran, dass klare Strukturen und bewusste Entscheidungen eine sichere Grundlage schaffen können. Die Karte lädt dazu ein, Verantwortung für das eigene Leben zu übernehmen, Grenzen zu setzen und die vorhandenen Kräfte gezielt einzusetzen, ohne dabei unnötig starr zu werden.",
+        gesundheit: "Im Bereich Gesundheit steht der Herrscher für Struktur, Beständigkeit und einen verantwortungsvollen Umgang mit dem eigenen Körper. Feste Routinen und langfristig tragfähige Gewohnheiten können dabei helfen, das Wohlbefinden zu stabilisieren. Die Karte ermutigt dazu, konsequent zu handeln und gleichzeitig darauf zu achten, dass Disziplin nicht in übermäßige Strenge gegenüber sich selbst übergeht.",
+        beruf: "Beruflich steht der Herrscher für klare Ziele, Organisation und die Bereitschaft, Verantwortung zu übernehmen. Fortschritt entsteht hier weniger durch spontane Impulse als durch Planung, Verlässlichkeit und konsequente Umsetzung. Die Karte kann darauf hinweisen, eigene Strukturen aufzubauen, Führung zu übernehmen oder einem bestehenden Projekt ein stabiles Fundament zu geben.",
+        liebe: "In der Liebe steht der Herrscher für Verlässlichkeit, klare Grenzen und den Wunsch nach einer stabilen Verbindung. Gefühle können durch konkrete Handlungen, Verantwortung und gegenseitigen Respekt zum Ausdruck gebracht werden. Die Karte erinnert jedoch daran, dass Sicherheit nicht durch Kontrolle entstehen sollte, sondern durch Vertrauen, Beständigkeit und klare Kommunikation."
     },
     {
         id: 5,
         name: "Der Hierophant",
         image: "images/der-hierophant.jpg",
-        meaning: "Tradition, Wissen und Spiritualität."
+        meaning: "Tradition, Wissen und Spiritualität.",
+        allgemein: "Der Hierophant steht für Tradition, Wissen und Spiritualität. Er verweist auf Werte, Erfahrungen und Lehren, die Orientierung geben können. Die Karte lädt dazu ein, von bewährtem Wissen zu lernen und gleichzeitig bewusst zu prüfen, welche Überzeugungen zum eigenen Weg passen. Tradition kann dabei eine Grundlage sein, ohne die persönliche Entwicklung einzuschränken.",
+        gesundheit: "Im Bereich Gesundheit steht der Hierophant für bewährtes Wissen, verlässliche Orientierung und einen verantwortungsvollen Umgang mit dem eigenen Wohlbefinden. Er kann dazu ermutigen, auf erprobte Methoden und fachkundige Unterstützung zurückzugreifen. Gleichzeitig erinnert die Karte daran, eigene Erfahrungen und Bedürfnisse wahrzunehmen und sinnvolle Gewohnheiten langfristig zu pflegen.",
+        beruf: "Beruflich steht der Hierophant für Lernen, Erfahrung und die Weitergabe von Wissen. Ausbildung, Mentoring oder etablierte Strukturen können dabei helfen, Fähigkeiten weiterzuentwickeln und Sicherheit zu gewinnen. Die Karte lädt dazu ein, von erfahrenen Menschen und bestehenden Systemen zu lernen, ohne die eigene Perspektive und persönliche Entwicklung aus den Augen zu verlieren.",
+        liebe: "In der Liebe steht der Hierophant für gemeinsame Werte, Vertrauen und die Bereitschaft, einer Verbindung eine tiefere Bedeutung zu geben. Bestehende Vorstellungen von Partnerschaft können Orientierung bieten, sollten jedoch zu den beteiligten Menschen passen. Die Karte lädt dazu ein, über Werte, Erwartungen und Wünsche nachzudenken und Beziehungen auf einer gemeinsamen Grundlage wachsen zu lassen."
     },
     {
         id: 6,
         name: "Die Liebenden",
         image: "images/die-liebenden.jpg",
-        meaning: "Liebe, Verbindung und Entscheidungen."
+        meaning: "Liebe, Verbindung und Entscheidungen.",    
+        allgemein: "Die Liebenden stehen für Liebe, Verbindung und bewusste Entscheidungen. Die Karte verweist auf die Beziehungen zwischen Menschen, aber auch auf die Verbindung zwischen den eigenen Werten, Wünschen und Handlungen. Sie lädt dazu ein, Entscheidungen nicht nur nach äußeren Erwartungen zu treffen, sondern bewusst zu wählen, was sich mit den eigenen Überzeugungen und Bedürfnissen vereinbaren lässt.",
+        gesundheit: "Im Bereich Gesundheit stehen die Liebenden für einen achtsamen und ausgewogenen Umgang mit dem eigenen Wohlbefinden. Entscheidungen über Gewohnheiten und Lebensweise können besonders nachhaltig sein, wenn sie mit den eigenen Bedürfnissen und Werten übereinstimmen. Die Karte erinnert daran, eine gute Beziehung zum eigenen Körper zu entwickeln und Entscheidungen bewusst statt aus kurzfristigen Impulsen heraus zu treffen.",
+        beruf: "Beruflich stehen die Liebenden für Zusammenarbeit, Übereinstimmung und wichtige Entscheidungen. Eine Aufgabe oder berufliche Richtung kann besonders erfüllend sein, wenn sie zu den eigenen Fähigkeiten und Werten passt. Die Karte lädt dazu ein, Möglichkeiten sorgfältig abzuwägen, gute Verbindungen zu anderen Menschen aufzubauen und Entscheidungen zu treffen, hinter denen man langfristig stehen kann.",
+        liebe: "In der Liebe stehen die Liebenden für Anziehung, Nähe und eine bewusste Verbindung zwischen zwei Menschen. Sie können auf eine neue Begegnung, eine Vertiefung bestehender Gefühle oder eine wichtige Entscheidung innerhalb einer Beziehung hinweisen. Die Karte erinnert daran, dass erfüllende Beziehungen nicht nur von Gefühlen getragen werden, sondern auch von gegenseitigem Vertrauen, gemeinsamen Entscheidungen und der Bereitschaft, sich bewusst aufeinander einzulassen."
     },
     {
         id: 7,
         name: "Der Wagen",
         image: "images/der-wagen.jpg",
-        meaning: "Entschlossenheit, Erfolg und Kontrolle."
+        meaning: "Entschlossenheit, Erfolg und Kontrolle.",    
+        allgemein: "Der Wagen steht für Entschlossenheit, Erfolg und die Fähigkeit, die eigene Richtung bewusst zu bestimmen. Unterschiedliche Kräfte oder Wünsche können gleichzeitig wirken, doch durch Konzentration und Selbstkontrolle lässt sich ein klarer Weg verfolgen. Die Karte lädt dazu ein, Verantwortung für die eigene Richtung zu übernehmen, Hindernisse entschlossen anzugehen und den Blick auf das gewünschte Ziel zu richten.",
+        gesundheit: "Im Bereich Gesundheit steht der Wagen für Disziplin, Eigenverantwortung und zielgerichtete Entwicklung. Klare Entscheidungen und beständige Gewohnheiten können dabei helfen, das eigene Wohlbefinden zu fördern und Fortschritte zu erzielen. Die Karte ermutigt dazu, aktiv zu handeln, erinnert aber gleichzeitig daran, die eigenen Grenzen wahrzunehmen und nicht jeden Fortschritt erzwingen zu wollen.",
+        beruf: "Beruflich steht der Wagen für Ehrgeiz, Fortschritt und entschlossenes Handeln. Ein klares Ziel und die Bereitschaft, konsequent darauf hinzuarbeiten, können dabei helfen, Herausforderungen zu überwinden und Erfolge zu erreichen. Die Karte lädt dazu ein, Prioritäten zu setzen, Ablenkungen zu begrenzen und die eigenen Fähigkeiten gezielt für den nächsten Schritt einzusetzen.",
+        liebe: "In der Liebe steht der Wagen für Entschlossenheit und die bewusste Gestaltung von Beziehungen. Es kann darum gehen, Klarheit über die eigenen Wünsche zu gewinnen und eine Verbindung aktiv voranzubringen. Gleichzeitig erinnert die Karte daran, dass Nähe nicht kontrolliert oder erzwungen werden kann. Eine gemeinsame Richtung entsteht am besten, wenn beide Menschen ihre Bedürfnisse einbringen und Entscheidungen miteinander treffen."
     },
     {
         id: 8,
         name: "Die Kraft",
         image: "images/die-kraft.jpg",
-        meaning: "Mut, Geduld und innere Stärke."
+        meaning: "Mut, Geduld und innere Stärke.",
+        allgemein: "Die Kraft steht für Mut, Geduld und innere Stärke. Sie zeigt, dass wahre Stärke nicht nur durch Durchsetzungskraft entsteht, sondern auch durch Selbstbeherrschung, Ausdauer und einen bewussten Umgang mit den eigenen Emotionen. Die Karte lädt dazu ein, Herausforderungen mit Vertrauen und Ruhe zu begegnen und die eigenen Kräfte gezielt einzusetzen, ohne unnötigen Druck auszuüben.",
+        gesundheit: "Im Bereich Gesundheit steht die Kraft für Ausdauer, Geduld und einen bewussten Umgang mit den eigenen körperlichen und mentalen Ressourcen. Veränderungen brauchen häufig Zeit und müssen nicht erzwungen werden. Die Karte ermutigt dazu, den eigenen Körper zu unterstützen, auf seine Signale zu achten und auch kleine Fortschritte als Teil einer langfristigen Entwicklung anzuerkennen.",
+        beruf: "Beruflich steht die Kraft für Selbstvertrauen, Belastbarkeit und die Fähigkeit, auch bei Herausforderungen ruhig und entschlossen zu bleiben. Schwierigkeiten können durch Geduld, kontinuierlichen Einsatz und einen konstruktiven Umgang mit Widerständen bewältigt werden. Die Karte lädt dazu ein, den eigenen Fähigkeiten zu vertrauen und Stärke nicht nur durch Leistung, sondern auch durch Ausdauer und Gelassenheit zu zeigen.",
+        liebe: "In der Liebe steht die Kraft für Vertrauen, Geduld und einen einfühlsamen Umgang miteinander. Starke Gefühle müssen weder unterdrückt noch unkontrolliert ausgelebt werden, sondern können bewusst angenommen und ausgedrückt werden. Die Karte erinnert daran, dass eine stabile Verbindung durch gegenseitigen Respekt, emotionale Stärke und die Bereitschaft wachsen kann, auch schwierige Situationen gemeinsam zu bewältigen."   
     },
     {
         id: 9,
         name: "Der Eremit",
         image: "images/der-eremit.jpg",
-        meaning: "Innenschau, Weisheit und Rückzug."
+        meaning: "Innenschau, Weisheit und Rückzug.",
+        allgemein: "Der Eremit steht für Innenschau, Weisheit und bewussten Rückzug. Manchmal entsteht Klarheit nicht durch mehr Aktivität, sondern durch Abstand und die Konzentration auf das Wesentliche. Die Karte lädt dazu ein, sich Zeit für die eigenen Gedanken zu nehmen, Erfahrungen zu reflektieren und Antworten zunächst im eigenen Inneren zu suchen, bevor der nächste Schritt gegangen wird.",
+        gesundheit: "Im Bereich Gesundheit steht der Eremit für Ruhe, Selbstbeobachtung und einen achtsamen Umgang mit den eigenen Bedürfnissen. Phasen der Erholung können dabei helfen, neue Kraft zu sammeln und körperliche oder mentale Signale bewusster wahrzunehmen. Die Karte erinnert daran, sich ausreichend Raum für Regeneration zu geben und bei Bedarf auch Unterstützung oder fachkundigen Rat einzubeziehen.",
+        beruf: "Beruflich steht der Eremit für Konzentration, Erfahrung und die Suche nach einer stimmigen Richtung. Eine Phase des Nachdenkens oder selbstständigen Arbeitens kann helfen, Prioritäten neu zu ordnen und langfristige Ziele klarer zu erkennen. Die Karte lädt dazu ein, nicht jedem äußeren Impuls zu folgen, sondern Entscheidungen auf Grundlage eigener Erfahrungen und sorgfältiger Überlegung zu treffen.",
+        liebe: "In der Liebe steht der Eremit für Selbstreflexion, persönlichen Freiraum und ein tieferes Verständnis der eigenen Bedürfnisse. Zeit für sich selbst kann helfen, Klarheit darüber zu gewinnen, welche Art von Verbindung wirklich gewünscht wird. In Beziehungen erinnert die Karte daran, dass Nähe und Rückzug sich nicht ausschließen müssen und persönlicher Freiraum eine Verbindung sogar vertiefen kann."    
     },
     {
         id: 10,
         name: "Rad des Schicksals",
         image: "images/rad-des-schicksals.jpg",
-        meaning: "Veränderung, Zyklen und Schicksal."
+        meaning: "Veränderung, Zyklen und Schicksal.",
+        allgemein: "Das Rad des Schicksals steht für Veränderung, Zyklen und die ständige Bewegung des Lebens. Situationen entwickeln sich weiter, Phasen beginnen und enden, und nicht alles lässt sich vollständig kontrollieren. Die Karte lädt dazu ein, Veränderungen bewusst anzunehmen, aus vergangenen Erfahrungen zu lernen und offen für neue Möglichkeiten zu bleiben, die sich aus einem Wandel ergeben können.",
+        gesundheit: "Im Bereich Gesundheit steht das Rad des Schicksals für Veränderungen, natürliche Schwankungen und unterschiedliche Phasen des Wohlbefindens. Nicht jeder Tag verläuft gleich, und Entwicklungen können Zeit benötigen. Die Karte erinnert daran, Veränderungen aufmerksam zu beobachten, hilfreiche Gewohnheiten beizubehalten und flexibel auf neue Bedürfnisse oder Situationen zu reagieren.",
+        beruf: "Beruflich steht das Rad des Schicksals für Wandel, neue Möglichkeiten und sich verändernde Bedingungen. Eine unerwartete Entwicklung kann bestehende Pläne beeinflussen oder neue Wege eröffnen. Die Karte lädt dazu ein, Chancen wahrzunehmen, flexibel zu bleiben und Veränderungen nicht ausschließlich als Störung, sondern auch als möglichen Ausgangspunkt für weiteres Wachstum zu betrachten.",
+        liebe: "In der Liebe steht das Rad des Schicksals für Veränderungen und die verschiedenen Phasen zwischenmenschlicher Verbindungen. Begegnungen können unerwartet entstehen, bestehende Beziehungen können sich weiterentwickeln und persönliche Bedürfnisse können sich mit der Zeit verändern. Die Karte erinnert daran, Entwicklungen nicht erzwingen zu wollen, sondern offen dafür zu bleiben, wohin eine Verbindung sich auf natürliche Weise bewegt."    
     },
     {
         id: 11,
         name: "Die Gerechtigkeit",
         image: "images/die-gerechtigkeit.jpg",
-        meaning: "Fairness, Wahrheit und Ausgleich."
+        meaning: "Fairness, Wahrheit und Ausgleich.",
+        allgemein: "Die Gerechtigkeit steht für Fairness, Wahrheit und Ausgleich. Sie lädt dazu ein, Situationen möglichst klar zu betrachten, unterschiedliche Seiten zu berücksichtigen und Verantwortung für die eigenen Entscheidungen zu übernehmen. Ehrlichkeit gegenüber sich selbst und anderen kann helfen, ein ausgewogenes Urteil zu finden und Entscheidungen zu treffen, die mit den eigenen Werten übereinstimmen.",
+        gesundheit: "Im Bereich Gesundheit steht die Gerechtigkeit für Ausgewogenheit, einen verantwortungsvollen Umgang mit dem eigenen Körper und eine realistische Einschätzung der eigenen Bedürfnisse. Es kann hilfreich sein, Gewohnheiten und Entscheidungen sachlich zu betrachten und gegebenenfalls anzupassen. Die Karte erinnert daran, weder zu nachlässig noch unnötig streng mit sich selbst umzugehen und auf ein nachhaltiges Gleichgewicht zu achten.",
+        beruf: "Beruflich steht die Gerechtigkeit für faire Entscheidungen, klare Vereinbarungen und verantwortungsbewusstes Handeln. Fakten und Konsequenzen sollten sorgfältig berücksichtigt werden, bevor eine wichtige Entscheidung getroffen wird. Die Karte lädt dazu ein, zuverlässig und transparent zu handeln, die Interessen aller Beteiligten angemessen einzubeziehen und langfristig auf eine faire Grundlage zu setzen.",
+        liebe: "In der Liebe steht die Gerechtigkeit für Ehrlichkeit, Gleichberechtigung und einen ausgewogenen Umgang miteinander. Wünsche und Bedürfnisse dürfen offen ausgesprochen werden, während gleichzeitig die Perspektive des anderen berücksichtigt wird. Die Karte erinnert daran, dass stabile Verbindungen davon profitieren, wenn Verantwortung, Respekt und gegenseitiges Geben und Nehmen in einem fairen Verhältnis stehen."    
     },
     {
         id: 12,
         name: "Der Gehängte",
         image: "images/der-gehaengte.jpg",
-        meaning: "Loslassen, Perspektivwechsel und Geduld."
+        meaning: "Loslassen, Perspektivwechsel und Geduld.",
+        allgemein: "Der Gehängte steht für Loslassen, Perspektivwechsel und Geduld. Nicht jede Situation lässt sich durch unmittelbares Handeln verändern. Manchmal entsteht eine neue Lösung erst, wenn gewohnte Vorstellungen vorübergehend losgelassen und die Dinge aus einem anderen Blickwinkel betrachtet werden. Die Karte lädt dazu ein, eine Pause nicht als Stillstand zu sehen, sondern als Gelegenheit für Erkenntnis und Neuorientierung.",
+        gesundheit: "Im Bereich Gesundheit steht der Gehängte für Geduld, Regeneration und die Bereitschaft, den bisherigen Umgang mit dem eigenen Wohlbefinden zu überdenken. Fortschritte können langsamer verlaufen als erwartet und manchmal ist weniger Aktivität hilfreicher als zusätzlicher Druck. Die Karte erinnert daran, dem Körper ausreichend Zeit zu geben, Veränderungen aufmerksam wahrzunehmen und bei Bedarf neue Perspektiven oder fachkundigen Rat einzubeziehen.",
+        beruf: "Beruflich steht der Gehängte für eine Phase des Innehaltens und der Neubewertung. Wenn ein bisheriger Weg nicht weiterführt, kann ein Perspektivwechsel neue Möglichkeiten sichtbar machen. Die Karte lädt dazu ein, nicht vorschnell zu handeln, bestehende Annahmen zu hinterfragen und vorübergehende Verzögerungen dafür zu nutzen, Ziele, Methoden oder Prioritäten aus einem anderen Blickwinkel zu betrachten.",
+        liebe: "In der Liebe steht der Gehängte für Geduld, Loslassen und die Bereitschaft, eine Verbindung aus einer anderen Perspektive zu betrachten. Nicht jede Unsicherheit muss sofort gelöst und nicht jede Entwicklung beschleunigt werden. Die Karte lädt dazu ein, eigene Erwartungen zu hinterfragen, der anderen Person Raum zu geben und offen dafür zu bleiben, dass ein veränderter Blick auf die Situation neue Klarheit schaffen kann."    
     },
     {
         id: 13,
         name: "Der Tod",
         image: "images/der-tod.jpg",
-        meaning: "Transformation, Ende und Neubeginn."
+        meaning: "Transformation, Ende und Neubeginn.",
+        allgemein: "Der Tod steht für Transformation, das Ende einer Phase und den daraus entstehenden Neubeginn. Dabei geht es meist nicht um ein wörtliches Ende, sondern um tiefgreifende Veränderung und das Loslassen dessen, was nicht länger zum eigenen Weg gehört. Die Karte lädt dazu ein, Abschiede als Teil natürlicher Entwicklung anzunehmen und Raum für etwas Neues entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht der Tod für Veränderung und das Ende bisheriger Gewohnheiten oder Lebensweisen. Alte Muster können hinterfragt und durch neue, förderliche Entscheidungen ersetzt werden. Die Karte erinnert daran, dass nachhaltige Veränderung häufig bedeutet, Vertrautes loszulassen und dem Körper sowie dem eigenen Wohlbefinden Zeit zu geben, sich an neue Bedingungen anzupassen.",
+        beruf: "Beruflich steht der Tod für einen deutlichen Wandel, das Abschließen einer bisherigen Phase oder die grundlegende Veränderung einer bestehenden Richtung. Ein Projekt, eine Aufgabe oder eine Arbeitsweise kann ihren Zweck erfüllt haben und Platz für etwas Neues schaffen. Die Karte lädt dazu ein, notwendige Abschlüsse zu akzeptieren und die dadurch frei werdenden Möglichkeiten für eine neue Entwicklung zu nutzen.",
+        liebe: "In der Liebe steht der Tod für tiefgreifende Veränderung und das Loslassen alter Beziehungsmuster. Das muss nicht das Ende einer Verbindung bedeuten, sondern kann auch eine grundlegende Erneuerung innerhalb einer Beziehung anzeigen. Die Karte lädt dazu ein, überholte Erwartungen oder Verhaltensweisen hinter sich zu lassen und offen dafür zu sein, dass sich Beziehungen und persönliche Bedürfnisse weiterentwickeln."    
     },
     {
         id: 14,
         name: "Die Mäßigkeit",
         image: "images/die-maessigkeit.jpg",
-        meaning: "Balance, Harmonie und Heilung."
+        meaning: "Balance, Harmonie und Heilung.",
+        allgemein: "Die Mäßigkeit steht für Balance, Harmonie und die Fähigkeit, unterschiedliche Kräfte miteinander in Einklang zu bringen. Extreme sind nicht immer notwendig, um Fortschritt zu erreichen. Oft entsteht eine stabile Entwicklung durch Geduld, Anpassung und das richtige Maß. Die Karte lädt dazu ein, Gegensätze miteinander zu verbinden und einen Weg zu finden, der langfristig Ausgeglichenheit ermöglicht.",
+        gesundheit: "Im Bereich Gesundheit steht die Mäßigkeit für Ausgleich, Regeneration und einen nachhaltigen Umgang mit dem eigenen Wohlbefinden. Bewegung und Erholung, Aktivität und Ruhe sowie verschiedene Bedürfnisse dürfen miteinander in Balance gebracht werden. Die Karte ermutigt dazu, Veränderungen schrittweise anzugehen und dem Körper die Zeit und Aufmerksamkeit zu geben, die er für Erholung und Stabilität benötigt.",
+        beruf: "Beruflich steht die Mäßigkeit für Zusammenarbeit, Geduld und einen ausgewogenen Umgang mit unterschiedlichen Anforderungen. Verschiedene Fähigkeiten, Aufgaben oder Interessen können sinnvoll miteinander verbunden werden, anstatt miteinander zu konkurrieren. Die Karte lädt dazu ein, langfristig zu denken, das richtige Tempo zu finden und durch kontinuierliche Anpassung eine stabile Entwicklung zu ermöglichen.",
+        liebe: "In der Liebe steht die Mäßigkeit für Harmonie, gegenseitiges Verständnis und die Fähigkeit, unterschiedliche Bedürfnisse miteinander zu verbinden. Eine stabile Beziehung entsteht häufig durch Geduld, Kommunikation und die Bereitschaft, aufeinander zuzugehen. Die Karte erinnert daran, Nähe und persönlichen Freiraum in ein gesundes Verhältnis zu bringen und einer Verbindung genügend Zeit zu geben, sich natürlich zu entwickeln."    
     },
     {
         id: 15,
         name: "Der Teufel",
         image: "images/der-teufel.jpg",
-        meaning: "Abhängigkeit, Versuchung und Bindung."
+        meaning: "Abhängigkeit, Versuchung und Bindung.",
+        allgemein: "Der Teufel steht für Abhängigkeit, Versuchung und Bindungen, die die eigene Freiheit einschränken können. Gewohnheiten, Wünsche oder äußere Einflüsse können stärker wirken, als zunächst bewusst ist. Die Karte lädt dazu ein, ehrlich zu betrachten, woran man festhält und welche Muster möglicherweise nicht mehr guttun. Bewusstsein über diese Bindungen kann der erste Schritt sein, wieder mehr Entscheidungsfreiheit zu gewinnen.",
+        gesundheit: "Im Bereich Gesundheit steht der Teufel für Gewohnheiten und Verhaltensweisen, die das eigene Wohlbefinden beeinflussen können. Kurzfristige Bedürfnisse oder Versuchungen können dabei mit langfristigen Zielen in Konflikt geraten. Die Karte lädt dazu ein, wiederkehrende Muster ohne vorschnelle Selbstverurteilung zu erkennen und bewusst zu entscheiden, welche davon beibehalten, verändert oder mit geeigneter Unterstützung angegangen werden sollten.",
+        beruf: "Beruflich steht der Teufel für starke Bindungen, materiellen Anreiz und Situationen, aus denen ein Ausstieg schwierig erscheinen kann. Erfolg, Geld oder Anerkennung können motivieren, aber auch dazu führen, dass persönliche Grenzen oder Werte aus dem Blick geraten. Die Karte lädt dazu ein, Abhängigkeiten und Verpflichtungen bewusst zu prüfen und darauf zu achten, dass berufliche Ziele nicht die eigene Entscheidungsfreiheit bestimmen.",
+        liebe: "In der Liebe steht der Teufel für starke Anziehung, Leidenschaft und Bindungen, die sowohl faszinierend als auch einengend wirken können. Intensive Gefühle können eine Verbindung verstärken, sollten jedoch nicht mit Kontrolle oder Abhängigkeit verwechselt werden. Die Karte lädt dazu ein, eigene Wünsche und Beziehungsmuster ehrlich zu betrachten und darauf zu achten, dass Nähe mit gegenseitigem Respekt und persönlicher Freiheit verbunden bleibt."   
     },
     {
         id: 16,
         name: "Der Turm",
         image: "images/der-turm.jpg",
-        meaning: "Umbruch, Erkenntnis und Befreiung."
+        meaning: "Umbruch, Erkenntnis und Befreiung.",
+        allgemein: "Der Turm steht für Umbruch, Erkenntnis und Befreiung. Gewohnte Strukturen oder Überzeugungen können plötzlich ins Wanken geraten und eine neue Sicht auf die Situation ermöglichen. Auch wenn Veränderungen zunächst herausfordernd wirken, können sie sichtbar machen, was nicht mehr tragfähig ist. Die Karte lädt dazu ein, Erkenntnisse anzunehmen und auf einer klareren Grundlage etwas Neues entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht der Turm für deutliche Veränderungen und Erkenntnisse über den bisherigen Umgang mit dem eigenen Wohlbefinden. Ein unerwartetes Ereignis oder eine neue Einsicht kann dazu führen, Gewohnheiten und Prioritäten neu zu betrachten. Die Karte erinnert daran, Veränderungen ernst zu nehmen, angemessen darauf zu reagieren und bei gesundheitlichen Beschwerden oder Unsicherheiten fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht der Turm für unerwartete Veränderungen, das Aufbrechen bestehender Strukturen und die Möglichkeit einer grundlegenden Neuorientierung. Pläne oder bisherige Annahmen können infrage gestellt werden, wodurch zunächst Unsicherheit entstehen kann. Die Karte lädt dazu ein, aus Veränderungen neue Erkenntnisse zu gewinnen und anschließend stabilere Strukturen auf einer realistischeren Grundlage aufzubauen.",
+        liebe: "In der Liebe steht der Turm für überraschende Erkenntnisse und Veränderungen, die bestehende Vorstellungen über eine Verbindung infrage stellen können. Verborgene Spannungen oder unausgesprochene Wahrheiten können deutlicher werden und dadurch eine ehrliche Auseinandersetzung ermöglichen. Die Karte lädt dazu ein, Veränderungen nicht vorschnell zu bewerten, sondern zu erkennen, welche alten Muster aufgebrochen werden müssen, damit eine authentischere Verbindung entstehen kann."    
     },
     {
         id: 17,
         name: "Der Stern",
         image: "images/der-stern.jpg",
-        meaning: "Hoffnung, Inspiration und Vertrauen."
+        meaning: "Hoffnung, Inspiration und Vertrauen.",
+        allgemein: "Der Stern steht für Hoffnung, Inspiration und Vertrauen in die weitere Entwicklung. Nach schwierigen oder unklaren Phasen kann wieder ein Gefühl von Orientierung und Zuversicht entstehen. Die Karte lädt dazu ein, den Blick auf Möglichkeiten zu richten, den eigenen Idealen Raum zu geben und darauf zu vertrauen, dass auch kleine Schritte langfristig zu einer positiven Veränderung beitragen können.",
+        gesundheit: "Im Bereich Gesundheit steht der Stern für Zuversicht, Erholung und einen vertrauensvollen Umgang mit dem eigenen Wohlbefinden. Positive Veränderungen können schrittweise entstehen, wenn Körper und Geist ausreichend Aufmerksamkeit und Zeit erhalten. Die Karte ermutigt dazu, hilfreiche Gewohnheiten weiterzuführen, Fortschritte wahrzunehmen und bei notwendigen Veränderungen geduldig mit sich selbst zu bleiben.",
+        beruf: "Beruflich steht der Stern für Inspiration, neue Perspektiven und Vertrauen in die eigenen Möglichkeiten. Eine Idee oder langfristige Vision kann neue Motivation geben und dabei helfen, die weitere Richtung zu erkennen. Die Karte lädt dazu ein, ambitionierte Ziele mit realistischen Schritten zu verbinden und sich von Rückschlägen nicht davon abhalten zu lassen, die eigenen Fähigkeiten und Vorstellungen weiterzuentwickeln.",
+        liebe: "In der Liebe steht der Stern für Hoffnung, Offenheit und Vertrauen in zwischenmenschliche Verbindungen. Nach Enttäuschungen kann neue Zuversicht entstehen, während bestehende Beziehungen durch Ehrlichkeit und gemeinsame Vorstellungen gestärkt werden können. Die Karte lädt dazu ein, offen für Nähe zu bleiben, ohne etwas erzwingen zu wollen, und einer Verbindung die Möglichkeit zu geben, sich auf natürliche Weise zu entwickeln."
     },
     {
         id: 18,
         name: "Der Mond",
         image: "images/der-mond.jpg",
-        meaning: "Illusion, Intuition und Unterbewusstsein."
+        meaning: "Illusion, Intuition und Unterbewusstsein.",
+        allgemein: "Der Mond steht für Illusion, Intuition und die verborgenen Bereiche des Unterbewusstseins. Nicht alles ist momentan so eindeutig, wie es auf den ersten Blick erscheinen mag. Gefühle, Vorstellungen und unbewusste Einflüsse können die Wahrnehmung einer Situation prägen. Die Karte lädt dazu ein, der eigenen Intuition Aufmerksamkeit zu schenken und gleichzeitig zwischen inneren Eindrücken, Vermutungen und überprüfbaren Tatsachen zu unterscheiden.",
+        gesundheit: "Im Bereich Gesundheit steht der Mond für eine erhöhte Aufmerksamkeit gegenüber inneren Empfindungen und Unsicherheiten. Körperliche und emotionale Signale können wertvolle Hinweise geben, sind jedoch nicht immer eindeutig zu interpretieren. Die Karte erinnert daran, die eigene Wahrnehmung ernst zu nehmen, ohne vorschnelle Schlussfolgerungen zu ziehen, und bei gesundheitlichen Fragen auf verlässliche Informationen und fachkundige Einschätzungen zurückzugreifen.",
+        beruf: "Beruflich steht der Mond für Unsicherheit, Intuition und Situationen, in denen noch nicht alle Informationen sichtbar sind. Pläne oder Möglichkeiten können vielversprechend erscheinen, sollten aber sorgfältig geprüft werden. Die Karte lädt dazu ein, das eigene Gespür wahrzunehmen und gleichzeitig Fakten zu sammeln, bevor wichtige Entscheidungen getroffen werden. Mit zunehmender Klarheit kann sich auch die weitere Richtung deutlicher zeigen.",
+        liebe: "In der Liebe steht der Mond für tiefe Gefühle, intuitive Wahrnehmung und mögliche Unsicherheiten innerhalb einer Verbindung. Wünsche oder Befürchtungen können beeinflussen, wie das Verhalten eines anderen Menschen interpretiert wird. Die Karte lädt dazu ein, Gefühle wahrzunehmen, ohne Vermutungen automatisch als Tatsachen zu betrachten. Offenheit und ehrliche Kommunikation können dabei helfen, zwischen tatsächlicher Verbindung und eigenen Vorstellungen zu unterscheiden."    
     },
     {
         id: 19,
         name: "Die Sonne",
         image: "images/die-sonne.jpg",
-        meaning: "Freude, Erfolg und Lebensenergie."
+        meaning: "Freude, Erfolg und Lebensenergie.",
+        allgemein: "Die Sonne steht für Freude, Erfolg und Lebensenergie. Sie symbolisiert Klarheit, Zuversicht und die Möglichkeit, das Leben bewusst zu genießen. Entwicklungen können deutlicher werden und bisherige Anstrengungen sichtbare Ergebnisse hervorbringen. Die Karte lädt dazu ein, Erfolge anzuerkennen, positive Erfahrungen bewusst wahrzunehmen und die eigene Energie für das zu nutzen, was Freude und Wachstum ermöglicht.",
+        gesundheit: "Im Bereich Gesundheit steht die Sonne für Vitalität, Wohlbefinden und einen positiven Umgang mit dem eigenen Körper. Bewegung, Erholung und Aktivitäten, die Freude bereiten, können dazu beitragen, neue Energie zu gewinnen und das allgemeine Wohlbefinden zu unterstützen. Die Karte ermutigt dazu, vorhandene Kraft bewusst zu nutzen und gleichzeitig auf ein ausgewogenes Verhältnis zwischen Aktivität und Regeneration zu achten.",
+        beruf: "Beruflich steht die Sonne für Erfolg, Selbstvertrauen und sichtbare Fortschritte. Eigene Fähigkeiten und Leistungen können stärker wahrgenommen werden und bisherige Arbeit kann positive Ergebnisse hervorbringen. Die Karte lädt dazu ein, Chancen mit Zuversicht zu nutzen, Erfolge anzuerkennen und die gewonnene Motivation dafür einzusetzen, weitere Ziele mit Klarheit und Freude zu verfolgen.",
+        liebe: "In der Liebe steht die Sonne für Freude, Offenheit und eine lebendige Verbindung zwischen Menschen. Gefühle können klarer zum Ausdruck kommen und gemeinsame Erfahrungen Leichtigkeit und Nähe schaffen. Die Karte kann sowohl für erfüllende neue Begegnungen als auch für eine positive Entwicklung bestehender Beziehungen stehen und lädt dazu ein, Zuneigung offen zu zeigen und gemeinsame Momente bewusst zu genießen."    
     },
     {
         id: 20,
         name: "Das Gericht",
         image: "images/das-gericht.jpg",
-        meaning: "Erwachen, Erkenntnis und Erneuerung."
+        meaning: "Erwachen, Erkenntnis und Erneuerung.",
+        allgemein: "Das Gericht steht für Erwachen, Erkenntnis und Erneuerung. Vergangene Erfahrungen können aus einer neuen Perspektive betrachtet und dadurch besser verstanden werden. Die Karte lädt dazu ein, aus bisherigen Entscheidungen zu lernen, alte Belastungen hinter sich zu lassen und bewusst eine neue Richtung einzuschlagen. Erkenntnis wird dabei zum Ausgangspunkt für persönliche Entwicklung und einen erneuerten Blick auf das eigene Leben.",
+        gesundheit: "Im Bereich Gesundheit steht das Gericht für neue Erkenntnisse über den eigenen Körper, das Wohlbefinden und bisherige Gewohnheiten. Erfahrungen können dabei helfen, besser zu verstehen, was langfristig unterstützt und was verändert werden sollte. Die Karte ermutigt dazu, hilfreiche Erkenntnisse in konkrete Entscheidungen umzusetzen und einen bewussteren Umgang mit den eigenen Bedürfnissen zu entwickeln.",
+        beruf: "Beruflich steht das Gericht für Neubewertung, Erkenntnis und die Möglichkeit einer neuen Ausrichtung. Bisherige Erfahrungen, Erfolge und Fehler können wertvolle Hinweise darauf geben, welcher nächste Schritt sinnvoll ist. Die Karte lädt dazu ein, die eigene Entwicklung ehrlich zu betrachten, daraus zu lernen und Entscheidungen zu treffen, die den aktuellen Fähigkeiten, Zielen und Vorstellungen besser entsprechen.",
+        liebe: "In der Liebe steht das Gericht für Erkenntnis, Aufarbeitung und die Möglichkeit eines neuen Umgangs mit Beziehungen. Vergangene Erfahrungen können deutlicher verstanden werden und dabei helfen, alte Muster zu erkennen. Die Karte lädt dazu ein, aus früheren Verbindungen oder gemeinsamen Erfahrungen zu lernen, Vergebung dort zuzulassen, wo sie sinnvoll ist, und zukünftige Beziehungen bewusster zu gestalten."
     },
     {
         id: 21,
         name: "Die Welt",
         image: "images/die-welt.jpg",
-        meaning: "Vollendung, Erfüllung und Ganzheit."
+        meaning: "Vollendung, Erfüllung und Ganzheit.",
+        allgemein: "Die Welt steht für Vollendung, Erfüllung und Ganzheit. Eine Entwicklung kann ihren Abschluss finden und die einzelnen Erfahrungen ergeben zunehmend ein zusammenhängendes Bild. Die Karte lädt dazu ein, das Erreichte bewusst anzuerkennen, Erfahrungen zu integrieren und einen gelungenen Abschluss nicht nur als Ende, sondern auch als Grundlage für den nächsten Lebensabschnitt zu betrachten.",
+        gesundheit: "Im Bereich Gesundheit steht die Welt für Ganzheit, Ausgeglichenheit und das Zusammenspiel verschiedener Bereiche des Wohlbefindens. Körperliche, mentale und alltägliche Bedürfnisse können als Teile eines größeren Ganzen betrachtet werden. Die Karte ermutigt dazu, erreichte Fortschritte wertzuschätzen und Gewohnheiten zu pflegen, die langfristig zu einem stabilen und ausgewogenen Lebensstil beitragen.",
+        beruf: "Beruflich steht die Welt für Abschluss, Erfolg und das Erreichen einer wichtigen Entwicklungsstufe. Ein Projekt, eine Lernphase oder ein langfristiges Ziel kann erfolgreich abgeschlossen werden und neue Möglichkeiten eröffnen. Die Karte lädt dazu ein, die eigenen Fortschritte anzuerkennen, erworbene Fähigkeiten miteinander zu verbinden und das Erreichte als Grundlage für zukünftige Herausforderungen zu nutzen.",
+        liebe: "In der Liebe steht die Welt für Erfüllung, Verbundenheit und ein Gefühl von Ganzheit innerhalb der eigenen Beziehungswelt. Eine Verbindung kann eine stabile und erfüllende Phase erreichen, während vergangene Erfahrungen zu einem klareren Verständnis der eigenen Bedürfnisse beitragen können. Die Karte lädt dazu ein, Beziehungen als Teil des eigenen Lebens anzunehmen, ohne die persönliche Ganzheit ausschließlich von einem anderen Menschen abhängig zu machen."    
     },
         {
         id: 22,
         name: "Ass der Kelche",
         image: "images/ass-der-kelche.jpg",
-        meaning: "Neubeginn in Liebe, Mitgefühl und Emotionen."
-    },
-    {
+        meaning: "Neubeginn in Liebe, Mitgefühl und Emotionen.",
+        allgemein: "Das Ass der Kelche steht für einen emotionalen Neubeginn, Mitgefühl und die Offenheit für neue Gefühle. Eine Phase kann beginnen, in der Beziehungen, Kreativität oder die eigene Gefühlswelt stärker in den Mittelpunkt rücken. Die Karte lädt dazu ein, Emotionen bewusst wahrzunehmen, sich für positive Erfahrungen zu öffnen und sowohl sich selbst als auch anderen mit Verständnis und Herzlichkeit zu begegnen.",
+        gesundheit: "Im Bereich Gesundheit steht das Ass der Kelche für emotionales Wohlbefinden, Selbstfürsorge und einen neuen Zugang zu den eigenen Bedürfnissen. Ein achtsamer Umgang mit Gefühlen kann dabei helfen, mehr Ausgeglichenheit in den Alltag zu bringen. Die Karte ermutigt dazu, sich Zeit für Erholung, angenehme Erfahrungen und unterstützende Beziehungen zu nehmen und das eigene Wohlbefinden ganzheitlich zu betrachten.",
+        beruf: "Beruflich steht das Ass der Kelche für neue Motivation, kreative Inspiration und Tätigkeiten, zu denen eine persönliche oder emotionale Verbindung entsteht. Ein neues Projekt oder eine neue Zusammenarbeit kann Begeisterung wecken und frische Energie bringen. Die Karte lädt dazu ein, neben praktischen Zielen auch darauf zu achten, welche Aufgaben Freude, Sinn und echtes Interesse hervorrufen.",
+        liebe: "In der Liebe steht das Ass der Kelche für neue Gefühle, emotionale Offenheit und die Möglichkeit einer tieferen Verbindung. Eine neue Begegnung kann Gefühle wecken, während in einer bestehenden Beziehung neue Nähe entstehen kann. Die Karte lädt dazu ein, Zuneigung anzunehmen und auszudrücken, Vertrauen wachsen zu lassen und offen für die emotionale Entwicklung einer Verbindung zu bleiben."    },
+        {
         id: 23,
         name: "Zwei der Kelche",
         image: "images/zwei-der-kelche.jpg",
-        meaning: "Partnerschaft, Harmonie und Verbindung."
+        meaning: "Partnerschaft, Harmonie und Verbindung.",
+        allgemein: "Die Zwei der Kelche steht für Partnerschaft, Harmonie und eine Verbindung, die auf gegenseitigem Austausch beruht. Zwei Menschen, Interessen oder Kräfte können zusammenfinden und sich sinnvoll ergänzen. Die Karte lädt dazu ein, offen auf andere zuzugehen, Gemeinsamkeiten wahrzunehmen und Verbindungen zu pflegen, in denen Respekt, Vertrauen und gegenseitige Wertschätzung vorhanden sind.",
+        gesundheit: "Im Bereich Gesundheit steht die Zwei der Kelche für Ausgleich, Unterstützung und einen harmonischen Umgang mit den eigenen Bedürfnissen. Wohlbefinden kann davon profitieren, wenn verschiedene Lebensbereiche miteinander in Einklang gebracht werden und Unterstützung angenommen wird, wenn sie hilfreich ist. Die Karte erinnert daran, dass gute Beziehungen und ein verständnisvoller Umgang mit sich selbst ebenfalls zum persönlichen Wohlbefinden beitragen können.",
+        beruf: "Beruflich steht die Zwei der Kelche für Zusammenarbeit, gegenseitiges Vertrauen und erfolgreiche Partnerschaften. Unterschiedliche Fähigkeiten oder Perspektiven können sich ergänzen und dadurch gemeinsame Ziele leichter erreichbar machen. Die Karte lädt dazu ein, auf faire Vereinbarungen, offene Kommunikation und ein ausgewogenes Verhältnis zwischen Geben und Nehmen zu achten.",
+        liebe: "In der Liebe steht die Zwei der Kelche besonders deutlich für gegenseitige Anziehung, Verbundenheit und partnerschaftliche Harmonie. Eine neue Begegnung kann sich zu einer tieferen Verbindung entwickeln, während bestehende Beziehungen durch gegenseitiges Verständnis gestärkt werden können. Die Karte lädt dazu ein, Gefühle offen zu teilen und eine Beziehung auf Augenhöhe entstehen oder weiter wachsen zu lassen."    
     },
     {
         id: 24,
         name: "Drei der Kelche",
         image: "images/drei-der-kelche.jpg",
-        meaning: "Freude, Freundschaft und gemeinsames Feiern."
+        meaning: "Freude, Freundschaft und gemeinsames Feiern.",
+        allgemein: "Die Drei der Kelche steht für Freude, Freundschaft und das gemeinsame Feiern positiver Entwicklungen. Begegnungen mit anderen Menschen können Leichtigkeit, Unterstützung und ein Gefühl von Zugehörigkeit schaffen. Die Karte lädt dazu ein, Erfolge und schöne Momente bewusst zu teilen, soziale Verbindungen zu pflegen und sich daran zu erinnern, dass Lebensfreude häufig noch stärker wird, wenn sie gemeinsam erlebt wird.",
+        gesundheit: "Im Bereich Gesundheit steht die Drei der Kelche für Lebensfreude, soziale Unterstützung und Aktivitäten, die das persönliche Wohlbefinden fördern können. Gemeinsame Zeit mit vertrauten Menschen kann dabei helfen, Stress zu reduzieren und neue Energie zu gewinnen. Die Karte ermutigt dazu, Freude und Erholung bewusst in den Alltag einzubauen und dabei ein Maß zu finden, das dem eigenen Körper und den persönlichen Bedürfnissen guttut.",
+        beruf: "Beruflich steht die Drei der Kelche für Zusammenarbeit, gegenseitige Unterstützung und das gemeinsame Feiern erreichter Fortschritte. Gute Beziehungen im Arbeitsumfeld oder innerhalb eines Projekts können Motivation stärken und neue Ideen fördern. Die Karte lädt dazu ein, Erfolge anzuerkennen, Beiträge anderer wertzuschätzen und ein Umfeld zu schaffen, in dem Zusammenarbeit nicht nur produktiv, sondern auch menschlich bereichernd sein kann.",
+        liebe: "In der Liebe steht die Drei der Kelche für Leichtigkeit, gemeinsame Freude und ein lebendiges soziales Umfeld. Neue Begegnungen können über Freundschaften oder gemeinsame Aktivitäten entstehen, während bestehende Beziehungen durch schöne gemeinsame Erfahrungen neue Energie gewinnen können. Die Karte lädt dazu ein, Nähe nicht nur in ernsten Gesprächen, sondern auch durch Humor, gemeinsame Unternehmungen und geteilte Freude wachsen zu lassen."
     },
     {
         id: 25,
         name: "Vier der Kelche",
         image: "images/vier-der-kelche.jpg",
-        meaning: "Nachdenken, Unzufriedenheit und neue Chancen."
+        meaning: "Nachdenken, Unzufriedenheit und neue Chancen.",
+        allgemein: "Die Vier der Kelche steht für Nachdenken, Unzufriedenheit und die Möglichkeit, neue Chancen zu erkennen. Der Blick kann momentan stark auf das gerichtet sein, was fehlt oder nicht den eigenen Erwartungen entspricht. Die Karte lädt dazu ein, die eigenen Bedürfnisse zu reflektieren und gleichzeitig aufmerksam für Möglichkeiten zu bleiben, die bisher vielleicht übersehen wurden.",
+        gesundheit: "Im Bereich Gesundheit steht die Vier der Kelche für Selbstbeobachtung und die Frage, was dem eigenen Wohlbefinden momentan fehlt. Gewohnte Routinen können sich unbefriedigend anfühlen oder neue Impulse notwendig werden. Die Karte ermutigt dazu, die eigenen Bedürfnisse aufmerksam wahrzunehmen, hilfreiche Veränderungen in Betracht zu ziehen und vorhandene Möglichkeiten zur Unterstützung des Wohlbefindens nicht vorschnell auszuschließen.",
+        beruf: "Beruflich steht die Vier der Kelche für Unzufriedenheit, fehlende Motivation oder das Nachdenken über die bisherige Richtung. Bestehende Aufgaben oder Möglichkeiten können weniger reizvoll erscheinen als zuvor. Die Karte lädt dazu ein, zunächst zu verstehen, woher diese Unzufriedenheit kommt, und gleichzeitig offen für Chancen, Ideen oder Veränderungen zu bleiben, die neue Motivation schaffen könnten.",
+        liebe: "In der Liebe steht die Vier der Kelche für Nachdenklichkeit, emotionale Zurückhaltung und möglicherweise unerfüllte Erwartungen. Der Fokus auf das, was fehlt, kann dazu führen, vorhandene Zuneigung oder neue Möglichkeiten weniger deutlich wahrzunehmen. Die Karte lädt dazu ein, die eigenen Gefühle und Bedürfnisse ehrlich zu betrachten und gleichzeitig offen für Nähe, Gespräche und unerwartete Entwicklungen zu bleiben."
     },
     {
         id: 26,
         name: "Fünf der Kelche",
         image: "images/fuenf-der-kelche.jpg",
-        meaning: "Trauer, Verlust und Hoffnung."
+        meaning: "Trauer, Verlust und Hoffnung.",
+        allgemein: "Die Fünf der Kelche steht für Trauer, Verlust und die Hoffnung, die trotz schwieriger Erfahrungen bestehen bleibt. Enttäuschungen können den Blick zunächst auf das richten, was verloren gegangen ist oder anders verlaufen ist als gewünscht. Die Karte lädt dazu ein, schmerzhafte Gefühle anzuerkennen, ohne dabei aus den Augen zu verlieren, was weiterhin vorhanden ist und welche neuen Möglichkeiten sich mit der Zeit entwickeln können.",
+        gesundheit: "Im Bereich Gesundheit steht die Fünf der Kelche für den Umgang mit Rückschlägen, Enttäuschungen oder Phasen geringeren Wohlbefindens. Nicht jede Entwicklung verläuft gleichmäßig und vorübergehende Schwierigkeiten müssen bisherige Fortschritte nicht bedeutungslos machen. Die Karte ermutigt dazu, geduldig mit sich selbst umzugehen, vorhandene Ressourcen wahrzunehmen und bei Bedarf hilfreiche Unterstützung anzunehmen.",
+        beruf: "Beruflich steht die Fünf der Kelche für Enttäuschungen, verpasste Möglichkeiten oder Ergebnisse, die nicht den eigenen Erwartungen entsprechen. Ein Rückschlag kann zunächst stärker wirken als die weiterhin vorhandenen Chancen. Die Karte lädt dazu ein, aus Erfahrungen zu lernen, den Blick nach einer angemessenen Phase der Verarbeitung wieder nach vorne zu richten und zu erkennen, welche Möglichkeiten weiterhin offenstehen.",
+        liebe: "In der Liebe steht die Fünf der Kelche für Enttäuschung, Verlust oder die Verarbeitung schwieriger emotionaler Erfahrungen. Vergangene Verletzungen können den Blick auf gegenwärtige oder zukünftige Beziehungen beeinflussen. Die Karte lädt dazu ein, Trauer und Enttäuschung Raum zu geben, ohne die Hoffnung auf Nähe und Verbundenheit aufzugeben. Mit der Zeit können neue Perspektiven und neue Möglichkeiten für Verbindung entstehen."
     },
     {
         id: 27,
         name: "Sechs der Kelche",
         image: "images/sechs-der-kelche.jpg",
-        meaning: "Erinnerungen, Nostalgie und Unschuld."
+        meaning: "Erinnerungen, Nostalgie und Unschuld.",
+        allgemein: "Die Sechs der Kelche steht für Erinnerungen, Nostalgie und die Verbindung zu vergangenen Erfahrungen. Begegnungen, Orte oder Gedanken können Gefühle aus früheren Lebensphasen wieder lebendig werden lassen. Die Karte lädt dazu ein, wertvolle Erinnerungen zu bewahren und aus der Vergangenheit zu lernen, ohne ausschließlich in ihr zu leben. Manchmal kann gerade ein Blick zurück daran erinnern, was im gegenwärtigen Leben wirklich wichtig ist.",
+        gesundheit: "Im Bereich Gesundheit steht die Sechs der Kelche für vertraute Erfahrungen, frühere Gewohnheiten und einen fürsorglichen Umgang mit dem eigenen Wohlbefinden. Es kann hilfreich sein, sich daran zu erinnern, welche Routinen oder Aktivitäten in der Vergangenheit gutgetan haben. Die Karte lädt dazu ein, Bewährtes wiederzuentdecken, dabei jedoch zu berücksichtigen, dass sich Bedürfnisse und Lebensumstände mit der Zeit verändern können.",
+        beruf: "Beruflich steht die Sechs der Kelche für frühere Erfahrungen, vertraute Fähigkeiten und Erkenntnisse aus vergangenen Lebensphasen. Kenntnisse oder Interessen, die längere Zeit keine Rolle gespielt haben, können wieder relevant werden. Die Karte lädt dazu ein, auf bereits Gelerntes zurückzugreifen, frühere Kontakte oder Ideen neu zu betrachten und hilfreiche Erfahrungen mit den heutigen Möglichkeiten zu verbinden.",
+        liebe: "In der Liebe steht die Sechs der Kelche für vertraute Gefühle, gemeinsame Erinnerungen und Verbindungen zur Vergangenheit. Frühere Beziehungen oder Begegnungen können wieder in Erinnerung treten, während bestehende Partnerschaften durch gemeinsame Erfahrungen gestärkt werden können. Die Karte lädt dazu ein, schöne Erinnerungen wertzuschätzen, ohne die Vergangenheit zu idealisieren, und offen dafür zu bleiben, wie sich Beziehungen in der Gegenwart weiterentwickeln."
     },
     {
         id: 28,
         name: "Sieben der Kelche",
         image: "images/sieben-der-kelche.jpg",
-        meaning: "Möglichkeiten, Fantasie und Entscheidungen."
+        meaning: "Möglichkeiten, Fantasie und Entscheidungen.",
+        allgemein: "Die Sieben der Kelche steht für Möglichkeiten, Fantasie und die Herausforderung, zwischen verschiedenen Wegen zu wählen. Viele Optionen können inspirierend wirken, gleichzeitig aber auch Unsicherheit oder unrealistische Erwartungen entstehen lassen. Die Karte lädt dazu ein, Vorstellungen und Wünsche zu erkunden, sie jedoch mit der Realität abzugleichen und bewusst zu entscheiden, welche Möglichkeiten tatsächlich verfolgt werden sollen.",
+        gesundheit: "Im Bereich Gesundheit steht die Sieben der Kelche für unterschiedliche Möglichkeiten und Vorstellungen darüber, was dem eigenen Wohlbefinden helfen könnte. Eine Vielzahl von Methoden, Ratschlägen oder Zielen kann die Orientierung erschweren. Die Karte erinnert daran, Informationen sorgfältig zu prüfen, realistische Entscheidungen zu treffen und bei gesundheitlichen Fragen verlässliche oder fachkundige Quellen einzubeziehen.",
+        beruf: "Beruflich steht die Sieben der Kelche für zahlreiche Ideen, Möglichkeiten und mögliche Richtungen. Kreativität kann neue Wege sichtbar machen, doch zu viele Optionen können dazu führen, dass keine davon konsequent verfolgt wird. Die Karte lädt dazu ein, Chancen realistisch einzuschätzen, Prioritäten zu setzen und aus interessanten Vorstellungen konkrete und umsetzbare Entscheidungen entstehen zu lassen.",
+        liebe: "In der Liebe steht die Sieben der Kelche für Wünsche, Vorstellungen und verschiedene Möglichkeiten innerhalb des eigenen Liebeslebens. Fantasien oder Erwartungen können inspirierend sein, sollten jedoch nicht mit der tatsächlichen Qualität einer Verbindung verwechselt werden. Die Karte lädt dazu ein, Menschen und Beziehungen möglichst realistisch wahrzunehmen und Entscheidungen danach zu treffen, was tatsächlich vorhanden ist und den eigenen Bedürfnissen entspricht."
     },
     {
         id: 29,
         name: "Acht der Kelche",
         image: "images/acht-der-kelche.jpg",
-        meaning: "Loslassen, Aufbruch und innere Suche."
+        meaning: "Loslassen, Aufbruch und innere Suche.",
+        allgemein: "Die Acht der Kelche steht für Loslassen, Aufbruch und die Suche nach tieferer Erfüllung. Etwas kann seinen bisherigen Wert verloren haben, obwohl es einmal wichtig oder passend war. Die Karte lädt dazu ein, ehrlich zu erkennen, wann eine Situation nicht mehr den eigenen Bedürfnissen entspricht, Vertrautes bewusst hinter sich zu lassen und sich auf die Suche nach einer stimmigeren Richtung zu begeben.",
+        gesundheit: "Im Bereich Gesundheit steht die Acht der Kelche für das Loslassen von Gewohnheiten oder Verhaltensweisen, die dem eigenen Wohlbefinden nicht mehr dienen. Eine Veränderung kann bedeuten, vertraute Routinen zu hinterfragen und neue Wege auszuprobieren. Die Karte ermutigt dazu, aufmerksam auf die eigenen Bedürfnisse zu hören und Entscheidungen zu treffen, die langfristig zu mehr Ausgeglichenheit und Wohlbefinden beitragen können.",
+        beruf: "Beruflich steht die Acht der Kelche für Neuorientierung und die Bereitschaft, einen bisherigen Weg zu hinterfragen. Eine Tätigkeit, ein Projekt oder ein Ziel kann äußerlich weiterhin funktionieren und sich dennoch nicht mehr erfüllend anfühlen. Die Karte lädt dazu ein, die eigenen Beweggründe zu prüfen und gegebenenfalls neue Möglichkeiten zu erkunden, ohne notwendige Veränderungen überstürzt herbeizuführen.",
+        liebe: "In der Liebe steht die Acht der Kelche für emotionale Neuorientierung und die Frage, ob eine Verbindung den eigenen Bedürfnissen noch entspricht. Manchmal bedeutet Entwicklung, alte Erwartungen oder Beziehungsmuster loszulassen; in anderen Fällen kann mehr persönlicher Freiraum bereits neue Klarheit schaffen. Die Karte lädt dazu ein, Gefühle ehrlich wahrzunehmen und den eigenen Weg zu wählen, ohne notwendige Entscheidungen vorschnell zu treffen."
     },
     {
         id: 30,
         name: "Neun der Kelche",
         image: "images/neun-der-kelche.jpg",
-        meaning: "Zufriedenheit, Wünsche und Genuss."
+        meaning: "Zufriedenheit, Wünsche und Genuss.",
+        allgemein: "Die Neun der Kelche steht für Zufriedenheit, erfüllte Wünsche und die Fähigkeit, das Erreichte zu genießen. Ein Moment der Freude oder persönlichen Erfüllung darf bewusst wahrgenommen werden, ohne sofort nach dem nächsten Ziel suchen zu müssen. Die Karte lädt dazu ein, vorhandene Möglichkeiten und Erfolge wertzuschätzen und gleichzeitig zu erkennen, welche Wünsche tatsächlich zu langfristiger Zufriedenheit beitragen.",
+        gesundheit: "Im Bereich Gesundheit steht die Neun der Kelche für Wohlbefinden, Genuss und einen positiven Umgang mit den eigenen Bedürfnissen. Angenehme Erfahrungen, Erholung und bewusste Selbstfürsorge können zu mehr Ausgeglichenheit beitragen. Die Karte erinnert daran, Genuss zuzulassen und gleichzeitig ein Maß zu finden, das dem eigenen Körper und dem langfristigen Wohlbefinden guttut.",
+        beruf: "Beruflich steht die Neun der Kelche für Zufriedenheit mit dem Erreichten und die Erfüllung persönlicher Ziele. Bisherige Anstrengungen können Ergebnisse hervorbringen, auf die mit Freude und Selbstvertrauen zurückgeblickt werden kann. Die Karte lädt dazu ein, Erfolge bewusst anzuerkennen und sich gleichzeitig zu fragen, welche weiteren Ziele nicht nur äußeren Erfolg, sondern auch persönliche Erfüllung versprechen.",
+        liebe: "In der Liebe steht die Neun der Kelche für emotionale Zufriedenheit, Freude und die Erfüllung persönlicher Wünsche. Eine Verbindung kann schöne und erfüllende Erfahrungen ermöglichen, während auch unabhängig von einer Beziehung ein Gefühl innerer Zufriedenheit entstehen kann. Die Karte lädt dazu ein, Nähe und Zuneigung zu genießen, ohne das eigene Glück vollständig von einem anderen Menschen abhängig zu machen."
     },
     {
         id: 31,
         name: "Zehn der Kelche",
         image: "images/zehn-der-kelche.jpg",
-        meaning: "Familie, Glück und Erfüllung."
+        meaning: "Familie, Glück und Erfüllung.",
+        allgemein: "Die Zehn der Kelche steht für Glück, Verbundenheit und ein Gefühl emotionaler Erfüllung. Beziehungen zu Familie, Freunden oder anderen nahestehenden Menschen können Geborgenheit und Zugehörigkeit vermitteln. Die Karte lädt dazu ein, gemeinsame Erfahrungen wertzuschätzen, Freude miteinander zu teilen und bewusst wahrzunehmen, welche Menschen und Verbindungen das eigene Leben bereichern.",
+        gesundheit: "Im Bereich Gesundheit steht die Zehn der Kelche für Wohlbefinden, emotionale Ausgeglichenheit und die unterstützende Wirkung eines positiven sozialen Umfelds. Geborgenheit, gemeinsame Zeit und verlässliche Beziehungen können zum persönlichen Wohlbefinden beitragen. Die Karte erinnert daran, neben körperlichen Bedürfnissen auch Erholung, Lebensfreude und zwischenmenschliche Verbundenheit als Teile eines ausgeglichenen Lebens zu berücksichtigen.",
+        beruf: "Beruflich steht die Zehn der Kelche für Zufriedenheit, ein unterstützendes Umfeld und das Gefühl, mit der eigenen Tätigkeit zu einem erfüllenden Gesamtbild beizutragen. Gute Zusammenarbeit und gemeinsame Erfolge können Motivation und Zugehörigkeit stärken. Die Karte lädt dazu ein, beruflichen Erfolg nicht ausschließlich an Leistung oder Einkommen zu messen, sondern auch daran, wie gut Arbeit und persönliche Lebensziele miteinander harmonieren.",
+        liebe: "In der Liebe steht die Zehn der Kelche für tiefe Verbundenheit, gemeinsames Glück und langfristige emotionale Erfüllung. Eine Beziehung kann von Vertrauen, gegenseitiger Unterstützung und gemeinsamen Vorstellungen geprägt sein. Für neue Verbindungen kann die Karte auf das Potenzial für größere Nähe hinweisen und lädt dazu ein, Beziehungen aufzubauen, in denen sich beide Menschen angenommen und miteinander verbunden fühlen."
     },
     {
         id: 32,
         name: "Bube der Kelche",
         image: "images/bube-der-kelche.jpg",
-        meaning: "Neugier, Sensibilität und emotionale Botschaften."
+        meaning: "Neugier, Sensibilität und emotionale Botschaften.",
+        allgemein: "Der Bube der Kelche steht für Neugier, Sensibilität und die Offenheit für emotionale Botschaften. Gefühle, kreative Impulse oder unerwartete Eindrücke können neue Perspektiven eröffnen. Die Karte lädt dazu ein, der eigenen Gefühlswelt mit Offenheit zu begegnen, feine Signale wahrzunehmen und sich die Fähigkeit zu bewahren, Menschen und Erfahrungen neugierig und unvoreingenommen zu betrachten.",
+        gesundheit: "Im Bereich Gesundheit steht der Bube der Kelche für Sensibilität gegenüber den eigenen Bedürfnissen und einen neugierigen Umgang mit dem persönlichen Wohlbefinden. Veränderungen im körperlichen oder emotionalen Befinden können bewusst wahrgenommen werden, ohne sie vorschnell zu bewerten. Die Karte ermutigt dazu, auf die eigenen Signale zu achten, hilfreiche neue Gewohnheiten zu erkunden und bei gesundheitlichen Fragen verlässliche Informationen einzubeziehen.", 
+        beruf: "Beruflich steht der Bube der Kelche für neue Ideen, kreative Impulse und die Bereitschaft, mit Offenheit zu lernen. Eine unerwartete Nachricht, Begegnung oder Inspiration kann neue Möglichkeiten sichtbar machen. Die Karte lädt dazu ein, neugierig zu bleiben, kreative Fähigkeiten weiterzuentwickeln und auch ungewöhnlichen Ideen zunächst Raum zu geben, bevor über ihren praktischen Wert entschieden wird.",
+        liebe: "In der Liebe steht der Bube der Kelche für emotionale Offenheit, neugierige Annäherung und das Ausdrücken von Gefühlen. Eine Nachricht oder Begegnung kann Interesse wecken, während bestehende Beziehungen durch spielerische und aufmerksame Kommunikation neue Impulse erhalten können. Die Karte lädt dazu ein, Gefühle ehrlich zu zeigen und gleichzeitig offen dafür zu bleiben, wie sich eine Verbindung tatsächlich entwickelt."
     },
     {
         id: 33,
         name: "Ritter der Kelche",
         image: "images/ritter-der-kelche.jpg",
-        meaning: "Romantik, Idealismus und Einladung."
+        meaning: "Romantik, Idealismus und Einladung.",
+        allgemein: "Der Ritter der Kelche steht für Romantik, Idealismus und die Bereitschaft, einer inneren Vorstellung zu folgen. Gefühle, Inspiration oder eine Einladung können Bewegung in eine Situation bringen und neue Erfahrungen ermöglichen. Die Karte lädt dazu ein, sich von Begeisterung und persönlichen Idealen leiten zu lassen, ohne dabei den Blick für die Realität und die praktischen Folgen eigener Entscheidungen zu verlieren.",
+        gesundheit: "Im Bereich Gesundheit steht der Ritter der Kelche für einen einfühlsamen und motivierten Umgang mit dem eigenen Wohlbefinden. Eine neue Idee oder ein persönliches Ziel kann dazu inspirieren, besser auf die eigenen Bedürfnisse zu achten. Die Karte ermutigt dazu, positive Impulse aufzugreifen und gleichzeitig darauf zu achten, dass Erwartungen realistisch bleiben und Veränderungen langfristig in den Alltag passen.",
+        beruf: "Beruflich steht der Ritter der Kelche für Inspiration, kreative Ziele und Möglichkeiten, die persönliches Interesse wecken. Ein Angebot, eine Zusammenarbeit oder eine neue Idee kann dazu einladen, eine interessante Richtung einzuschlagen. Die Karte lädt dazu ein, Begeisterung ernst zu nehmen, Möglichkeiten jedoch sorgfältig zu prüfen und aus inspirierenden Vorstellungen konkrete Schritte entstehen zu lassen.",
+        liebe: "In der Liebe steht der Ritter der Kelche für Romantik, Annäherung und das offene Zeigen von Gefühlen. Eine Einladung, eine neue Begegnung oder eine liebevolle Geste kann eine Verbindung in Bewegung bringen. Die Karte lädt dazu ein, Zuneigung auszudrücken und romantische Erfahrungen zu genießen, ohne eine Person oder Beziehung stärker zu idealisieren, als es die tatsächliche Verbindung rechtfertigt."
     },
     {
         id: 34,
         name: "Königin der Kelche",
         image: "images/koenigin-der-kelche.jpg",
-        meaning: "Empathie, Intuition und Mitgefühl."
+        meaning: "Empathie, Intuition und Mitgefühl.",
+        allgemein: "Die Königin der Kelche steht für Empathie, Intuition und Mitgefühl. Sie symbolisiert die Fähigkeit, Gefühle bewusst wahrzunehmen und sowohl sich selbst als auch anderen mit Verständnis zu begegnen. Die Karte lädt dazu ein, der eigenen inneren Stimme Aufmerksamkeit zu schenken, emotionale Bedürfnisse ernst zu nehmen und Mitgefühl mit gesunden persönlichen Grenzen zu verbinden.",
+        gesundheit: "Im Bereich Gesundheit steht die Königin der Kelche für Selbstfürsorge, Körperwahrnehmung und einen einfühlsamen Umgang mit dem eigenen Wohlbefinden. Körperliche und emotionale Bedürfnisse dürfen aufmerksam wahrgenommen werden, ohne vorschnell bewertet zu werden. Die Karte ermutigt dazu, sich ausreichend Raum für Erholung und Regeneration zu geben und bei gesundheitlichen Fragen Intuition mit verlässlichen Informationen und fachkundigem Rat zu verbinden.",
+        beruf: "Beruflich steht die Königin der Kelche für Einfühlungsvermögen, Intuition und einen verständnisvollen Umgang mit anderen Menschen. Die Fähigkeit, Stimmungen und Bedürfnisse wahrzunehmen, kann Zusammenarbeit und Kommunikation verbessern. Die Karte lädt dazu ein, emotionale Intelligenz und Kreativität bewusst einzusetzen, dabei jedoch die eigenen Grenzen und sachlichen Anforderungen einer Situation nicht aus den Augen zu verlieren.",
+        liebe: "In der Liebe steht die Königin der Kelche für emotionale Tiefe, Verständnis und liebevolle Verbundenheit. Gefühle können offen wahrgenommen und mit Einfühlungsvermögen ausgedrückt werden. Die Karte lädt dazu ein, Nähe und Vertrauen entstehen zu lassen, dem anderen aufmerksam zuzuhören und gleichzeitig die eigenen Bedürfnisse und Grenzen zu respektieren, damit Mitgefühl auf Gegenseitigkeit beruhen kann."
     },
     {
         id: 35,
         name: "König der Kelche",
         image: "images/koenig-der-kelche.jpg",
-        meaning: "Emotionale Reife, Gelassenheit und Weisheit."
+        meaning: "Emotionale Reife, Gelassenheit und Weisheit.",
+        allgemein: "Der König der Kelche steht für emotionale Reife, Gelassenheit und Weisheit. Gefühle dürfen intensiv sein, ohne das eigene Handeln vollständig zu bestimmen. Die Karte lädt dazu ein, Emotionen bewusst wahrzunehmen, mit Ruhe auf Herausforderungen zu reagieren und Entscheidungen zu treffen, die sowohl das eigene Empfinden als auch die tatsächliche Situation berücksichtigen.",
+        gesundheit: "Im Bereich Gesundheit steht der König der Kelche für einen ausgeglichenen und verantwortungsvollen Umgang mit körperlichem und emotionalem Wohlbefinden. Ruhe und Selbstwahrnehmung können dabei helfen, angemessen auf die eigenen Bedürfnisse zu reagieren. Die Karte ermutigt dazu, Gefühle und körperliche Signale ernst zu nehmen, ohne sich von ihnen überwältigen zu lassen, und bei Bedarf verlässliche Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht der König der Kelche für Gelassenheit, emotionale Intelligenz und einen souveränen Umgang mit anspruchsvollen Situationen. Auch unter Druck kann es hilfreich sein, ruhig zu bleiben und unterschiedliche Interessen mit Verständnis zu betrachten. Die Karte lädt dazu ein, Entscheidungen mit Klarheit und Einfühlungsvermögen zu treffen und sowohl sachliche Anforderungen als auch zwischenmenschliche Aspekte zu berücksichtigen.",
+        liebe: "In der Liebe steht der König der Kelche für emotionale Stabilität, Verständnis und die Fähigkeit, tiefe Gefühle auf eine reife Weise auszudrücken. Eine Verbindung kann von Vertrauen und gegenseitiger Unterstützung profitieren, wenn Gefühle offen kommuniziert werden, ohne den anderen zu kontrollieren. Die Karte lädt dazu ein, Nähe zuzulassen und gleichzeitig auch in emotional intensiven Situationen respektvoll und ausgeglichen zu handeln."
     },
-        {
+    {
         id: 36,
         name: "Ass der Stäbe",
         image: "images/ass-der-staebe.jpg",
-        meaning: "Inspiration, neue Energie und Tatendrang."
+        meaning: "Inspiration, neue Energie und Tatendrang.",
+        allgemein: "Das Ass der Stäbe steht für Inspiration, neue Energie und Tatendrang. Eine Idee, ein Wunsch oder eine neue Möglichkeit kann Begeisterung wecken und den Impuls geben, etwas in Bewegung zu setzen. Die Karte lädt dazu ein, diese Energie bewusst zu nutzen, Neues auszuprobieren und aus einem ersten Funken durch konkretes Handeln eine wirkliche Entwicklung entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht das Ass der Stäbe für neue Energie, Motivation und den Wunsch, aktiv etwas für das eigene Wohlbefinden zu tun. Eine neue Gewohnheit oder Aktivität kann frischen Schwung in den Alltag bringen. Die Karte ermutigt dazu, Motivation in konkrete Schritte umzusetzen und gleichzeitig darauf zu achten, die eigenen Kräfte nicht durch einen zu schnellen oder übermäßigen Start zu überfordern.",
+        beruf: "Beruflich steht das Ass der Stäbe für neue Ideen, Initiative und den Beginn einer dynamischen Entwicklung. Ein Projekt, eine Aufgabe oder eine berufliche Möglichkeit kann neue Begeisterung auslösen und kreatives Potenzial freisetzen. Die Karte lädt dazu ein, vielversprechende Impulse aufzugreifen, den ersten Schritt zu wagen und die anfängliche Motivation durch konsequente Umsetzung weiterzuentwickeln.",
+        liebe: "In der Liebe steht das Ass der Stäbe für Anziehung, Leidenschaft und neue Energie im zwischenmenschlichen Bereich. Eine Begegnung kann starke Neugier oder Begeisterung auslösen, während bestehende Beziehungen durch gemeinsame Aktivitäten und neue Impulse belebt werden können. Die Karte lädt dazu ein, diese Energie offen zu erleben und gleichzeitig darauf zu achten, ob aus anfänglicher Leidenschaft eine tragfähige Verbindung entstehen kann."
     },
     {
         id: 37,
         name: "Zwei der Stäbe",
         image: "images/zwei-der-staebe.jpg",
-        meaning: "Planung, Weitblick und Entscheidungen."
+        meaning: "Planung, Weitblick und Entscheidungen.",
+        allgemein: "Die Zwei der Stäbe steht für Planung, Weitblick und bewusste Entscheidungen über die weitere Richtung. Erste Möglichkeiten sind bereits sichtbar, doch bevor der nächste Schritt erfolgt, kann es sinnvoll sein, verschiedene Wege zu betrachten. Die Karte lädt dazu ein, über den gegenwärtigen Zustand hinauszudenken, Ziele zu formulieren und eine Richtung zu wählen, die sowohl den eigenen Möglichkeiten als auch langfristigen Vorstellungen entspricht.",
+        gesundheit: "Im Bereich Gesundheit steht die Zwei der Stäbe für vorausschauende Entscheidungen und die Planung langfristiger Gewohnheiten. Statt ausschließlich auf kurzfristige Veränderungen zu reagieren, kann es hilfreich sein, sich bewusst zu überlegen, welche Routinen dauerhaft zum eigenen Wohlbefinden beitragen. Die Karte ermutigt dazu, realistische Ziele zu setzen, verschiedene Möglichkeiten abzuwägen und einen umsetzbaren Weg zu wählen.",
+        beruf: "Beruflich steht die Zwei der Stäbe für strategische Planung, neue Möglichkeiten und die Entscheidung über zukünftige Schritte. Eine vorhandene Grundlage kann genutzt werden, um größere Ziele ins Auge zu fassen oder neue Richtungen zu erkunden. Die Karte lädt dazu ein, Chancen sorgfältig zu vergleichen, über kurzfristige Ergebnisse hinauszudenken und aus einer Vorstellung einen konkreten Plan entstehen zu lassen.",
+        liebe: "In der Liebe steht die Zwei der Stäbe für Zukunftsfragen, Möglichkeiten und bewusste Entscheidungen über die gewünschte Richtung. Es kann darum gehen, herauszufinden, welche Art von Verbindung gesucht wird oder wie sich eine bestehende Beziehung weiterentwickeln soll. Die Karte lädt dazu ein, eigene Wünsche klarer zu erkennen, unterschiedliche Möglichkeiten abzuwägen und Entscheidungen nicht nur aus dem Moment heraus zu treffen."
     },
     {
         id: 38,
         name: "Drei der Stäbe",
         image: "images/drei-der-staebe.jpg",
-        meaning: "Fortschritt, Expansion und Chancen."
+        meaning: "Fortschritt, Expansion und Chancen.",
+        allgemein: "Die Drei der Stäbe steht für Fortschritt, Expansion und neue Chancen. Erste Schritte wurden bereits gemacht und nun können sich daraus weitere Möglichkeiten entwickeln. Die Karte lädt dazu ein, den Blick nach vorne zu richten, bisherige Erfahrungen als Grundlage zu nutzen und offen für Entwicklungen zu sein, die über den bisherigen Horizont hinausführen.",
+        gesundheit: "Im Bereich Gesundheit steht die Drei der Stäbe für Fortschritt und die Weiterentwicklung bereits begonnener Veränderungen. Erste positive Ergebnisse können dazu motivieren, hilfreiche Gewohnheiten fortzuführen und langfristiger zu denken. Die Karte ermutigt dazu, die eigene Entwicklung aufmerksam zu beobachten, realistische nächste Schritte zu wählen und dem Körper ausreichend Zeit für nachhaltige Fortschritte zu geben.",
+        beruf: "Beruflich steht die Drei der Stäbe für Wachstum, Erweiterung und Chancen, die sich aus bisherigen Anstrengungen ergeben können. Ein Projekt oder eine berufliche Richtung kann sich weiterentwickeln und neue Möglichkeiten eröffnen. Die Karte lädt dazu ein, vorausschauend zu handeln, neue Bereiche zu erkunden und vorhandene Erfolge als Ausgangspunkt für den nächsten Entwicklungsschritt zu nutzen.",
+        liebe: "In der Liebe steht die Drei der Stäbe für Entwicklung, gemeinsame Perspektiven und die Offenheit für neue Erfahrungen. Eine bestehende Verbindung kann sich weiter entfalten, während neue Begegnungen zusätzliche Möglichkeiten eröffnen können. Die Karte lädt dazu ein, über den gegenwärtigen Moment hinauszublicken und gleichzeitig offen dafür zu bleiben, welche Richtung eine Verbindung tatsächlich nimmt."
     },
     {
         id: 39,
         name: "Vier der Stäbe",
         image: "images/vier-der-staebe.jpg",
-        meaning: "Feier, Gemeinschaft und Stabilität."
+        meaning: "Feier, Gemeinschaft und Stabilität.",
+        allgemein: "Die Vier der Stäbe steht für Feier, Gemeinschaft und eine stabile Grundlage. Erreichte Fortschritte dürfen bewusst wahrgenommen und gemeinsam mit anderen gewürdigt werden. Die Karte lädt dazu ein, Momente der Freude zu genießen, unterstützende Verbindungen zu pflegen und die entstandene Stabilität als Grundlage für weitere Entwicklungen zu nutzen.",
+        gesundheit: "Im Bereich Gesundheit steht die Vier der Stäbe für Stabilität, Wohlbefinden und die positive Wirkung eines unterstützenden Umfelds. Erreichte Fortschritte oder etablierte Gewohnheiten können Anlass geben, die eigene Entwicklung wertzuschätzen. Die Karte ermutigt dazu, ein ausgewogenes Umfeld zu schaffen, das Erholung, Aktivität und langfristig hilfreiche Routinen unterstützt.",
+        beruf: "Beruflich steht die Vier der Stäbe für erreichte Meilensteine, gute Zusammenarbeit und eine stabile Grundlage für weitere Ziele. Der Abschluss einer wichtigen Etappe kann Anlass sein, Ergebnisse anzuerkennen und gemeinsam Erfolge zu feiern. Die Karte lädt dazu ein, vorhandene Strukturen und Beziehungen zu stärken und auf dieser Basis den nächsten Entwicklungsschritt vorzubereiten.",
+        liebe: "In der Liebe steht die Vier der Stäbe für Freude, Verbundenheit und Stabilität innerhalb zwischenmenschlicher Beziehungen. Gemeinsame Erfahrungen können das Gefühl von Vertrauen und Zugehörigkeit stärken. Die Karte kann auf eine harmonische Phase, einen gemeinsamen Meilenstein oder eine sich festigende Verbindung hinweisen und lädt dazu ein, schöne Momente bewusst miteinander zu teilen."
     },
     {
         id: 40,
         name: "Fünf der Stäbe",
         image: "images/fuenf-der-staebe.jpg",
-        meaning: "Wettbewerb, Konflikte und Herausforderungen."
+        meaning: "Wettbewerb, Konflikte und Herausforderungen.",
+        allgemein: "Die Fünf der Stäbe steht für Wettbewerb, Konflikte und Herausforderungen. Unterschiedliche Interessen, Meinungen oder Kräfte können aufeinandertreffen und dadurch Unruhe erzeugen. Gleichzeitig können solche Situationen dazu beitragen, die eigene Position besser zu verstehen und neue Fähigkeiten zu entwickeln. Die Karte lädt dazu ein, Herausforderungen konstruktiv anzunehmen und Konflikte nicht größer werden zu lassen, als sie tatsächlich sind.",
+        gesundheit: "Im Bereich Gesundheit steht die Fünf der Stäbe für Belastungen, unterschiedliche Anforderungen und die Herausforderung, ein gesundes Gleichgewicht zu finden. Verschiedene Ziele oder Bedürfnisse können miteinander konkurrieren und zusätzlichen Druck erzeugen. Die Karte ermutigt dazu, Prioritäten zu setzen, unnötige Belastungen zu reduzieren und Herausforderungen schrittweise anzugehen, ohne die eigenen Grenzen aus den Augen zu verlieren.",
+        beruf: "Beruflich steht die Fünf der Stäbe für Wettbewerb, unterschiedliche Meinungen und Situationen, in denen die eigenen Fähigkeiten gefordert werden. Konkurrenz oder Meinungsverschiedenheiten können anstrengend sein, aber auch neue Ideen und persönliche Entwicklung fördern. Die Karte lädt dazu ein, die eigene Position selbstbewusst zu vertreten, offen für andere Perspektiven zu bleiben und Herausforderungen als Gelegenheit zum Lernen zu nutzen.",
+        liebe: "In der Liebe steht die Fünf der Stäbe für Spannungen, unterschiedliche Bedürfnisse und kleinere oder größere Auseinandersetzungen. Meinungsverschiedenheiten müssen nicht grundsätzlich gegen eine Verbindung sprechen, sondern können helfen, Erwartungen und Grenzen deutlicher zu erkennen. Die Karte lädt dazu ein, Konflikte offen und respektvoll auszutragen und darauf zu achten, dass aus unterschiedlichen Standpunkten kein unnötiger Machtkampf entsteht."
     },
     {
         id: 41,
         name: "Sechs der Stäbe",
         image: "images/sechs-der-staebe.jpg",
-        meaning: "Erfolg, Anerkennung und Selbstvertrauen."
+        meaning: "Erfolg, Anerkennung und Selbstvertrauen.",
+        allgemein: "Die Sechs der Stäbe steht für Erfolg, Anerkennung und wachsendes Selbstvertrauen. Eigene Anstrengungen können sichtbare Ergebnisse hervorbringen und von anderen wahrgenommen werden. Die Karte lädt dazu ein, Erfolge bewusst anzuerkennen und daraus Vertrauen in die eigenen Fähigkeiten zu gewinnen, ohne den weiteren Weg oder den Beitrag anderer aus den Augen zu verlieren.",
+        gesundheit: "Im Bereich Gesundheit steht die Sechs der Stäbe für Fortschritte, Motivation und das Vertrauen in die eigene Entwicklung. Erreichte Verbesserungen können zeigen, dass bisherige Bemühungen Wirkung entfalten und dazu motivieren, hilfreiche Gewohnheiten fortzuführen. Die Karte ermutigt dazu, Fortschritte wertzuschätzen, ohne sich ausschließlich an Ergebnissen zu messen oder die eigenen Grenzen zu übergehen.",
+        beruf: "Beruflich steht die Sechs der Stäbe für Erfolg, Anerkennung und sichtbare Ergebnisse der eigenen Arbeit. Eine Leistung, ein Projekt oder eine persönliche Entwicklung kann positiv wahrgenommen werden und neue Möglichkeiten eröffnen. Die Karte lädt dazu ein, Erfolge selbstbewusst anzunehmen, die gewonnenen Erfahrungen zu nutzen und mit Zuversicht den nächsten beruflichen Schritt anzugehen.",
+        liebe: "In der Liebe steht die Sechs der Stäbe für Selbstvertrauen, positive Entwicklungen und das Gefühl, in einer Verbindung gesehen und wertgeschätzt zu werden. Eine neue Begegnung kann durch selbstsicheres Auftreten begünstigt werden, während bestehende Beziehungen von gegenseitiger Anerkennung profitieren können. Die Karte lädt dazu ein, den eigenen Wert zu kennen und gleichzeitig auch dem anderen Wertschätzung entgegenzubringen."
     },
     {
         id: 42,
         name: "Sieben der Stäbe",
         image: "images/sieben-der-staebe.jpg",
-        meaning: "Standhaftigkeit, Mut und Verteidigung."
+        meaning: "Standhaftigkeit, Mut und Verteidigung.",
+        allgemein: "Die Sieben der Stäbe steht für Standhaftigkeit, Mut und die Bereitschaft, die eigene Position zu verteidigen. Herausforderungen oder Widerstände können dazu führen, dass Überzeugungen und Grenzen deutlicher vertreten werden müssen. Die Karte lädt dazu ein, für das einzustehen, was wichtig ist, ohne jeden Widerstand als Angriff zu betrachten oder unnötige Konflikte entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht die Sieben der Stäbe für Durchhaltevermögen und die Fähigkeit, hilfreiche Entscheidungen trotz äußerer oder innerer Widerstände beizubehalten. Veränderungen können Phasen mit sich bringen, in denen Motivation oder Belastbarkeit gefordert werden. Die Karte ermutigt dazu, die eigenen Bedürfnisse und Grenzen zu schützen und langfristige Ziele mit Beharrlichkeit, aber ohne übermäßigen Druck zu verfolgen.",
+        beruf: "Beruflich steht die Sieben der Stäbe für Selbstbehauptung, Konkurrenz und das Verteidigen der eigenen Arbeit oder Position. Herausforderungen können verlangen, die eigenen Fähigkeiten und Entscheidungen überzeugend zu vertreten. Die Karte lädt dazu ein, selbstbewusst für berechtigte Interessen einzustehen, konstruktive Kritik anzunehmen und sich von Widerständen nicht vorschnell vom eigenen Weg abbringen zu lassen.",
+        liebe: "In der Liebe steht die Sieben der Stäbe für persönliche Grenzen, Standhaftigkeit und den Mut, eigene Bedürfnisse offen zu vertreten. Eine Verbindung sollte Raum dafür bieten, unterschiedliche Wünsche auszudrücken, ohne sich selbst dabei aufzugeben. Die Karte lädt dazu ein, für wichtige Grenzen einzustehen und gleichzeitig zu unterscheiden, wann eine Beziehung Schutz benötigt und wann Offenheit und Entgegenkommen hilfreicher sind."
     },
     {
         id: 43,
         name: "Acht der Stäbe",
         image: "images/acht-der-staebe.jpg",
-        meaning: "Schnelligkeit, Bewegung und Nachrichten."
+        meaning: "Schnelligkeit, Bewegung und Nachrichten.",
+        allgemein: "Die Acht der Stäbe steht für Schnelligkeit, Bewegung und Entwicklungen, die innerhalb kurzer Zeit an Dynamik gewinnen können. Nachrichten, Entscheidungen oder Ereignisse können eine Situation plötzlich voranbringen. Die Karte lädt dazu ein, vorhandene Energie zu nutzen, aufmerksam auf neue Entwicklungen zu reagieren und bei aller Geschwindigkeit die eigene Richtung nicht aus den Augen zu verlieren.",
+        gesundheit: "Im Bereich Gesundheit steht die Acht der Stäbe für Dynamik, Aktivität und Veränderungen, die sich möglicherweise schneller bemerkbar machen als erwartet. Neue Routinen oder Entscheidungen können frischen Schwung in den Alltag bringen. Die Karte ermutigt dazu, positive Entwicklungen zu nutzen und gleichzeitig darauf zu achten, das eigene Tempo an die körperlichen und persönlichen Bedürfnisse anzupassen.",
+        beruf: "Beruflich steht die Acht der Stäbe für schnellen Fortschritt, Kommunikation und eine Phase erhöhter Aktivität. Nachrichten, neue Aufgaben oder Entscheidungen können mehrere Entwicklungen gleichzeitig in Bewegung setzen. Die Karte lädt dazu ein, Chancen zügig aufzugreifen, klar zu kommunizieren und Prioritäten zu setzen, damit Geschwindigkeit nicht zu unnötiger Unordnung führt.",
+        liebe: "In der Liebe steht die Acht der Stäbe für Dynamik, Kommunikation und eine Verbindung, die schnell an Intensität gewinnen kann. Nachrichten oder Begegnungen können neue Entwicklungen auslösen, während bestehende Beziehungen durch offene Gespräche und gemeinsame Aktivitäten neuen Schwung erhalten können. Die Karte lädt dazu ein, diese Bewegung zu genießen und dennoch aufmerksam wahrzunehmen, wohin sich eine Verbindung tatsächlich entwickelt."
     },
     {
         id: 44,
         name: "Neun der Stäbe",
         image: "images/neun-der-staebe.jpg",
-        meaning: "Ausdauer, Vorsicht und Beharrlichkeit."
+        meaning: "Ausdauer, Vorsicht und Beharrlichkeit.",
+        allgemein: "Die Neun der Stäbe steht für Ausdauer, Vorsicht und Beharrlichkeit. Vergangene Erfahrungen können Spuren hinterlassen haben und dazu führen, neuen Herausforderungen aufmerksamer zu begegnen. Die Karte lädt dazu ein, die bisher entwickelte Stärke zu nutzen, sinnvolle Grenzen zu schützen und trotz möglicher Erschöpfung oder Unsicherheit nicht vorschnell aufzugeben.",
+        gesundheit: "Im Bereich Gesundheit steht die Neun der Stäbe für Durchhaltevermögen, Regeneration und einen achtsamen Umgang mit den eigenen Grenzen. Längere Anstrengungen können Kraft kosten, auch wenn bereits deutliche Fortschritte erreicht wurden. Die Karte ermutigt dazu, hilfreiche Gewohnheiten beizubehalten, gleichzeitig ausreichend Erholung einzuplanen und Warnsignale des Körpers nicht zugunsten eines Ziels zu ignorieren.",
+        beruf: "Beruflich steht die Neun der Stäbe für Beharrlichkeit und die Fähigkeit, auch nach Schwierigkeiten an wichtigen Zielen festzuhalten. Erfahrungen aus vergangenen Herausforderungen können helfen, Risiken früher zu erkennen und besser vorbereitet zu handeln. Die Karte lädt dazu ein, nicht kurz vor einem möglichen Fortschritt aufzugeben, aber auch zu prüfen, wo Anpassungen oder Pausen notwendig sind, um langfristig leistungsfähig zu bleiben.",
+        liebe: "In der Liebe steht die Neun der Stäbe für Vorsicht, persönliche Grenzen und die Bereitschaft, trotz vergangener Erfahrungen weiterhin Verbindung zuzulassen. Frühere Enttäuschungen können dazu führen, sich stärker zu schützen oder neuen Situationen zunächst zurückhaltend zu begegnen. Die Karte lädt dazu ein, sinnvolle Grenzen zu bewahren, ohne aus Vorsicht jede Möglichkeit für Vertrauen und Nähe auszuschließen."
     },
     {
         id: 45,
         name: "Zehn der Stäbe",
         image: "images/zehn-der-staebe.jpg",
-        meaning: "Verantwortung, Belastung und Pflicht."
+        meaning: "Verantwortung, Belastung und Pflicht.",
+        allgemein: "Die Zehn der Stäbe steht für Verantwortung, Belastung und die Pflichten, die mit übernommenen Aufgaben verbunden sind. Vieles gleichzeitig zu tragen kann ein Zeichen von Einsatz und Verlässlichkeit sein, auf Dauer jedoch auch die eigenen Kräfte beanspruchen. Die Karte lädt dazu ein, Verantwortung bewusst zu übernehmen und gleichzeitig zu prüfen, welche Aufgaben wirklich notwendig sind und wo Entlastung möglich ist.",
+        gesundheit: "Im Bereich Gesundheit steht die Zehn der Stäbe für Belastung und die Auswirkungen anhaltender Anforderungen auf das eigene Wohlbefinden. Viele Verpflichtungen oder ein hoher persönlicher Anspruch können dazu führen, dass Erholung zu wenig Raum erhält. Die Karte erinnert daran, die eigenen Grenzen ernst zu nehmen, Belastungen nach Möglichkeit zu reduzieren und ausreichend Zeit für Regeneration und unterstützende Gewohnheiten einzuplanen.",
+        beruf: "Beruflich steht die Zehn der Stäbe für große Verantwortung, hohe Arbeitsbelastung und die Verpflichtungen, die mit ambitionierten Zielen einhergehen können. Viel Einsatz kann Fortschritt ermöglichen, doch zu viele Aufgaben gleichzeitig können langfristig die Leistungsfähigkeit beeinträchtigen. Die Karte lädt dazu ein, Prioritäten zu setzen, Aufgaben sinnvoll zu verteilen und zwischen notwendiger Verantwortung und vermeidbarer Überlastung zu unterscheiden.",
+        liebe: "In der Liebe steht die Zehn der Stäbe für Verantwortung und Belastungen, die eine Verbindung beeinflussen können. Alltag, Erwartungen oder persönliche Verpflichtungen können zeitweise mehr Raum einnehmen als Nähe und Leichtigkeit. Die Karte lädt dazu ein, Belastungen offen anzusprechen, Verantwortung möglichst fair zu teilen und darauf zu achten, dass eine Beziehung nicht dauerhaft von den Aufgaben getragen wird, die mit ihr verbunden sind."
     },
     {
         id: 46,
         name: "Bube der Stäbe",
         image: "images/bube-der-staebe.jpg",
-        meaning: "Neugier, Abenteuer und Begeisterung."
+        meaning: "Neugier, Abenteuer und Begeisterung.",
+        allgemein: "Der Bube der Stäbe steht für Neugier, Abenteuer und die Begeisterung für neue Möglichkeiten. Eine Idee oder Erfahrung kann den Wunsch wecken, etwas Unbekanntes auszuprobieren und den eigenen Horizont zu erweitern. Die Karte lädt dazu ein, offen und experimentierfreudig zu bleiben, erste Schritte zu wagen und aus neuen Erfahrungen zu lernen, ohne bereits jedes Ergebnis kennen zu müssen.",
+        gesundheit: "Im Bereich Gesundheit steht der Bube der Stäbe für neue Motivation, Bewegungsfreude und die Neugier auf Möglichkeiten, das eigene Wohlbefinden zu fördern. Eine neue Aktivität oder Gewohnheit kann frische Energie in den Alltag bringen. Die Karte ermutigt dazu, Neues auszuprobieren und herauszufinden, was langfristig guttut, ohne anfängliche Begeisterung in unnötige Überforderung umschlagen zu lassen.",
+        beruf: "Beruflich steht der Bube der Stäbe für Lernbereitschaft, neue Ideen und Begeisterung für unbekannte Aufgaben. Ein Projekt, eine Gelegenheit oder ein neues Interessengebiet kann den Wunsch auslösen, Fähigkeiten zu erweitern und praktische Erfahrungen zu sammeln. Die Karte lädt dazu ein, neugierig zu handeln, Chancen auszuprobieren und Fehler als natürlichen Bestandteil des Lernprozesses zu betrachten.",
+        liebe: "In der Liebe steht der Bube der Stäbe für Neugier, Flirt und die Freude an neuen Erfahrungen. Eine Begegnung kann Begeisterung und spontane Anziehung auslösen, während bestehende Beziehungen durch gemeinsame Abenteuer und neue Impulse belebt werden können. Die Karte lädt dazu ein, Leichtigkeit und Interesse zuzulassen und gleichzeitig offen dafür zu bleiben, wie tief sich eine Verbindung tatsächlich entwickelt."
     },
     {
         id: 47,
         name: "Ritter der Stäbe",
         image: "images/ritter-der-staebe.jpg",
-        meaning: "Leidenschaft, Mut und entschlossenes Handeln."
+        meaning: "Leidenschaft, Mut und entschlossenes Handeln.",
+        allgemein: "Der Ritter der Stäbe steht für Leidenschaft, Mut und entschlossenes Handeln. Starke Motivation kann dazu führen, dass eine Idee oder ein Ziel mit großer Energie verfolgt wird. Die Karte lädt dazu ein, Initiative zu zeigen, Herausforderungen selbstbewusst anzugehen und vorhandene Begeisterung in Bewegung umzusetzen, ohne dabei durch Ungeduld oder vorschnelle Entscheidungen die eigene Richtung aus den Augen zu verlieren.",
+        gesundheit: "Im Bereich Gesundheit steht der Ritter der Stäbe für Energie, Aktivität und den Wunsch, körperlich oder persönlich voranzukommen. Neue Motivation kann dabei helfen, Bewegung oder hilfreiche Gewohnheiten mit Begeisterung anzugehen. Die Karte ermutigt dazu, vorhandene Energie zu nutzen und gleichzeitig auf ausreichende Erholung, ein angemessenes Tempo und die eigenen körperlichen Grenzen zu achten.",
+        beruf: "Beruflich steht der Ritter der Stäbe für Initiative, Ehrgeiz und die Bereitschaft, Chancen entschlossen zu verfolgen. Neue Aufgaben oder Projekte können starke Motivation auslösen und schnelle Fortschritte ermöglichen. Die Karte lädt dazu ein, mutig zu handeln und Verantwortung für die eigene Entwicklung zu übernehmen, gleichzeitig aber wichtige Entscheidungen nicht ausschließlich aus momentaner Begeisterung heraus zu treffen.",
+        liebe: "In der Liebe steht der Ritter der Stäbe für Leidenschaft, starke Anziehung und eine dynamische Entwicklung. Eine neue Begegnung kann schnell Begeisterung auslösen, während bestehende Beziehungen durch Spontaneität und gemeinsame Erfahrungen neue Energie erhalten können. Die Karte lädt dazu ein, intensive Gefühle zu genießen und gleichzeitig darauf zu achten, ob neben Leidenschaft auch Vertrauen, Respekt und langfristiges Interesse entstehen."
     },
     {
         id: 48,
         name: "Königin der Stäbe",
         image: "images/koenigin-der-staebe.jpg",
-        meaning: "Selbstbewusstsein, Charisma und Kreativität."
+        meaning: "Selbstbewusstsein, Charisma und Kreativität.",
+        allgemein: "Die Königin der Stäbe steht für Selbstbewusstsein, Charisma und Kreativität. Sie symbolisiert die Fähigkeit, die eigenen Stärken zu kennen und sie mit Wärme und Entschlossenheit nach außen zu tragen. Die Karte lädt dazu ein, den eigenen Ideen zu vertrauen, sich authentisch zu zeigen und persönliche Ziele mit Begeisterung zu verfolgen, ohne den Wert anderer Menschen aus den Augen zu verlieren.",
+        gesundheit: "Im Bereich Gesundheit steht die Königin der Stäbe für Vitalität, Selbstvertrauen und einen aktiven Umgang mit dem eigenen Wohlbefinden. Freude an Bewegung und ein positives Verhältnis zum eigenen Körper können neue Motivation schaffen. Die Karte ermutigt dazu, die eigenen Kräfte bewusst zu nutzen, auf persönliche Bedürfnisse zu achten und Aktivität mit ausreichender Erholung zu verbinden.",
+        beruf: "Beruflich steht die Königin der Stäbe für Selbstsicherheit, Kreativität und die Fähigkeit, andere mit eigenen Ideen zu begeistern. Eigeninitiative und eine überzeugende Ausstrahlung können dabei helfen, Projekte voranzubringen oder neue Möglichkeiten zu erschließen. Die Karte lädt dazu ein, vorhandene Fähigkeiten sichtbar einzusetzen, Verantwortung zu übernehmen und kreative Vorstellungen selbstbewusst in die Praxis umzusetzen.",
+        liebe: "In der Liebe steht die Königin der Stäbe für Selbstbewusstsein, Anziehungskraft und eine lebendige Form der Verbundenheit. Die eigene Persönlichkeit darf offen gezeigt werden, ohne sich für eine Beziehung kleiner machen zu müssen. Die Karte kann auf leidenschaftliche Begegnungen oder neue Energie in bestehenden Beziehungen hinweisen und lädt dazu ein, Nähe mit Selbstständigkeit und gegenseitiger Wertschätzung zu verbinden."
     },
     {
         id: 49,
         name: "König der Stäbe",
         image: "images/koenig-der-staebe.jpg",
-        meaning: "Führung, Vision und Tatkraft."
+        meaning: "Führung, Vision und Tatkraft.",
+        allgemein: "Der König der Stäbe steht für Führung, Vision und Tatkraft. Er symbolisiert die Fähigkeit, eine klare Vorstellung zu entwickeln und andere oder sich selbst entschlossen in diese Richtung zu führen. Die Karte lädt dazu ein, Verantwortung für die eigenen Ziele zu übernehmen, vorhandene Energie gezielt einzusetzen und langfristige Vorstellungen durch konkretes Handeln Wirklichkeit werden zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht der König der Stäbe für Eigenverantwortung, Energie und einen zielgerichteten Umgang mit dem eigenen Wohlbefinden. Eine klare Vorstellung davon, was langfristig erreicht werden soll, kann helfen, hilfreiche Gewohnheiten konsequent zu verfolgen. Die Karte ermutigt dazu, aktiv Verantwortung zu übernehmen und gleichzeitig die eigenen körperlichen Grenzen sowie notwendige Erholungsphasen zu berücksichtigen.",
+        beruf: "Beruflich steht der König der Stäbe für Führungsstärke, Unternehmergeist und die Fähigkeit, eine langfristige Vision in konkrete Schritte zu übersetzen. Eigene Ideen können mit Entschlossenheit vorangetrieben und andere Menschen für gemeinsame Ziele begeistert werden. Die Karte lädt dazu ein, Verantwortung zu übernehmen, vorausschauend zu handeln und Selbstvertrauen mit Offenheit für die Fähigkeiten und Perspektiven anderer zu verbinden.",
+        liebe: "In der Liebe steht der König der Stäbe für Selbstbewusstsein, Leidenschaft und die Bereitschaft, eine Verbindung aktiv mitzugestalten. Klare Wünsche und entschlossenes Handeln können einer Beziehung Richtung geben, sollten jedoch mit den Bedürfnissen des anderen in Einklang gebracht werden. Die Karte lädt dazu ein, Initiative und Zuneigung offen zu zeigen und gleichzeitig eine Verbindung auf Augenhöhe zu ermöglichen."
     },
-        {
+    {
         id: 50,
         name: "Ass der Schwerter",
         image: "images/ass-der-schwerter.jpg",
-        meaning: "Klarheit, Wahrheit und neue Erkenntnisse."
+        meaning: "Klarheit, Wahrheit und neue Erkenntnisse.",
+        allgemein: "Das Ass der Schwerter steht für Klarheit, Wahrheit und neue Erkenntnisse. Eine Situation kann plötzlich verständlicher werden oder eine neue Idee ermöglicht einen klareren Blick auf bisherige Fragen. Die Karte lädt dazu ein, Gedanken zu ordnen, Tatsachen möglichst nüchtern zu betrachten und gewonnene Erkenntnisse als Grundlage für bewusste Entscheidungen und neue Entwicklungen zu nutzen.",
+        gesundheit: "Im Bereich Gesundheit steht das Ass der Schwerter für Klarheit, Information und ein besseres Verständnis des eigenen Wohlbefindens. Neue Erkenntnisse können dabei helfen, Gewohnheiten oder körperliche und mentale Bedürfnisse bewusster zu betrachten. Die Karte ermutigt dazu, Beobachtungen von Vermutungen zu unterscheiden, verlässliche Informationen einzubeziehen und auf dieser Grundlage sinnvolle Entscheidungen zu treffen.",
+        beruf: "Beruflich steht das Ass der Schwerter für klare Ideen, geistige Stärke und die Fähigkeit, komplexe Situationen zu durchdringen. Eine neue Erkenntnis oder Entscheidung kann den Ausgangspunkt für ein Projekt oder eine veränderte Richtung bilden. Die Karte lädt dazu ein, präzise zu denken, offen zu kommunizieren und gute Ideen durch klare Entscheidungen in konkrete Handlungen zu übersetzen.",
+        liebe: "In der Liebe steht das Ass der Schwerter für Klarheit, Ehrlichkeit und offene Kommunikation. Gefühle und Erwartungen können deutlicher verstanden werden, wenn sie direkt und respektvoll ausgesprochen werden. Die Karte lädt dazu ein, Missverständnisse zu klären, die tatsächliche Situation möglichst ehrlich zu betrachten und Entscheidungen auf Grundlage dessen zu treffen, was zwischen den beteiligten Menschen wirklich vorhanden ist."
     },
     {
         id: 51,
         name: "Zwei der Schwerter",
         image: "images/zwei-der-schwerter.jpg",
-        meaning: "Unentschlossenheit, Abwägen und innere Blockade."
+        meaning: "Unentschlossenheit, Abwägen und innere Blockade.",
+        allgemein: "Die Zwei der Schwerter steht für Unentschlossenheit, Abwägen und eine innere Blockade zwischen verschiedenen Möglichkeiten. Eine Entscheidung kann schwierig erscheinen, weil mehrere Seiten nachvollziehbar sind oder wichtige Informationen noch fehlen. Die Karte lädt dazu ein, sich Zeit für eine klare Betrachtung zu nehmen, widersprüchliche Gedanken anzuerkennen und eine Entscheidung nicht dauerhaft aus Angst vor möglichen Konsequenzen aufzuschieben.",
+        gesundheit: "Im Bereich Gesundheit steht die Zwei der Schwerter für Unsicherheit und die Schwierigkeit, zwischen verschiedenen Möglichkeiten oder Bedürfnissen abzuwägen. Es kann hilfreich sein, zunächst mehr Klarheit zu gewinnen, anstatt vorschnell eine Richtung einzuschlagen. Die Karte ermutigt dazu, körperliche und mentale Signale aufmerksam wahrzunehmen, verlässliche Informationen einzubeziehen und bei Unsicherheit fachkundigen Rat zu suchen.",
+        beruf: "Beruflich steht die Zwei der Schwerter für eine Entscheidungssituation, in der unterschiedliche Möglichkeiten gegeneinander abgewogen werden müssen. Fehlende Informationen oder widersprüchliche Interessen können dazu führen, dass der nächste Schritt zunächst unklar bleibt. Die Karte lädt dazu ein, Fakten zu sammeln, Prioritäten zu klären und nach sorgfältiger Überlegung eine Richtung zu wählen, statt dauerhaft im Abwägen zu verharren.",
+        liebe: "In der Liebe steht die Zwei der Schwerter für Unsicherheit, Zurückhaltung und eine Entscheidung, die emotional nicht leicht zu treffen ist. Unterschiedliche Gefühle oder Bedürfnisse können miteinander in Konflikt stehen und eine klare Richtung erschweren. Die Karte lädt dazu ein, die eigenen Empfindungen ehrlich zu betrachten, offene Fragen anzusprechen und Klarheit entstehen zu lassen, bevor eine wichtige Entscheidung getroffen wird."
     },
     {
         id: 52,
         name: "Drei der Schwerter",
         image: "images/drei-der-schwerter.jpg",
-        meaning: "Herzschmerz, Trauer und schmerzhafte Einsicht."
+        meaning: "Herzschmerz, Trauer und schmerzhafte Einsicht.",
+        allgemein: "Die Drei der Schwerter steht für Herzschmerz, Trauer und schmerzhafte Einsichten. Eine Wahrheit oder Erfahrung kann zunächst verletzend sein, gleichzeitig aber Klarheit darüber schaffen, was tatsächlich geschehen ist oder verändert werden muss. Die Karte lädt dazu ein, schwierige Gefühle anzuerkennen, Erfahrungen ehrlich zu betrachten und sich die notwendige Zeit zu geben, um daraus neue Klarheit und Stärke entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht die Drei der Schwerter für emotionale Belastung, schwierige Erfahrungen und Erkenntnisse, die das eigene Wohlbefinden beeinflussen können. Enttäuschungen oder belastende Phasen dürfen ernst genommen und verarbeitet werden. Die Karte ermutigt dazu, mit sich selbst geduldig umzugehen, Erholung und Unterstützung zuzulassen und bei anhaltenden körperlichen oder emotionalen Beschwerden geeignete fachkundige Hilfe einzubeziehen.",
+        beruf: "Beruflich steht die Drei der Schwerter für Enttäuschungen, Rückschläge oder Erkenntnisse, die zunächst unangenehm sein können. Ein Ergebnis, eine Entscheidung oder eine Zusammenarbeit kann anders verlaufen als erhofft. Die Karte lädt dazu ein, die Situation möglichst klar zu betrachten, aus der Erfahrung zu lernen und nach einer angemessenen Verarbeitung den Blick wieder auf neue Möglichkeiten und nächste Schritte zu richten.",
+        liebe: "In der Liebe steht die Drei der Schwerter für Herzschmerz, Enttäuschung und schmerzhafte Klarheit. Konflikte, unerwiderte Gefühle oder das Ende einer Verbindung können intensive Emotionen auslösen. Die Karte lädt dazu ein, diese Gefühle nicht zu verdrängen und gleichzeitig zu erkennen, dass schmerzhafte Erfahrungen mit der Zeit verarbeitet werden können. Ehrlichkeit und Selbstfürsorge können dabei helfen, wieder Raum für Vertrauen und neue Verbundenheit entstehen zu lassen."
     },
     {
         id: 53,
         name: "Vier der Schwerter",
         image: "images/vier-der-schwerter.jpg",
-        meaning: "Ruhe, Erholung und Besinnung."
+        meaning: "Ruhe, Erholung und Besinnung.",
+        allgemein: "Die Vier der Schwerter steht für Ruhe, Erholung und Besinnung. Nach einer anstrengenden oder ereignisreichen Phase kann es sinnvoll sein, bewusst Abstand zu gewinnen und neue Kräfte zu sammeln. Die Karte lädt dazu ein, nicht jede Situation sofort durch weiteres Handeln lösen zu wollen, sondern auch der Stille Raum zu geben, Gedanken zu ordnen und anschließend mit neuer Klarheit weiterzugehen.",
+        gesundheit: "Im Bereich Gesundheit steht die Vier der Schwerter für Regeneration, Entspannung und einen bewussten Umgang mit den eigenen Kräften. Körper und Geist benötigen neben Aktivität auch ausreichend Ruhe, um sich zu erholen. Die Karte ermutigt dazu, Erholungsphasen ernst zu nehmen, auf persönliche Bedürfnisse zu achten und bei anhaltenden Beschwerden oder ungewöhnlicher Erschöpfung fachkundigen Rat einzubeziehen.",
+        beruf: "Beruflich steht die Vier der Schwerter für eine Phase des Innehaltens, der Reflexion und der Vorbereitung. Eine kurze Pause oder etwas Abstand kann helfen, Prioritäten neu zu ordnen und Aufgaben anschließend konzentrierter anzugehen. Die Karte lädt dazu ein, Erholung nicht als Stillstand zu betrachten, sondern als Teil eines nachhaltigen Arbeitsrhythmus, aus dem neue Klarheit und Leistungsfähigkeit entstehen können.",
+        liebe: "In der Liebe steht die Vier der Schwerter für Ruhe, Abstand und die Möglichkeit, Gefühle und Erfahrungen zu reflektieren. Manchmal braucht eine Verbindung weniger unmittelbare Aktivität und stattdessen Zeit, damit Gedanken und Emotionen sich ordnen können. Die Karte lädt dazu ein, notwendige Freiräume zu respektieren und aus einer ruhigeren Perspektive wahrzunehmen, welche Form von Nähe und Verbindung tatsächlich gewünscht wird."
     },
     {
         id: 54,
         name: "Fünf der Schwerter",
         image: "images/fuenf-der-schwerter.jpg",
-        meaning: "Konflikt, Ego und zweifelhafter Sieg."
+        meaning: "Konflikt, Ego und zweifelhafter Sieg.",
+        allgemein: "Die Fünf der Schwerter steht für Konflikt, Ego und einen Sieg, dessen Preis möglicherweise höher ist als sein tatsächlicher Wert. Nicht jede Auseinandersetzung muss gewonnen werden, und Recht zu behalten bedeutet nicht automatisch, dass eine Situation dadurch besser wird. Die Karte lädt dazu ein, die eigenen Motive zu hinterfragen, unnötige Machtkämpfe zu erkennen und bewusst zu entscheiden, welche Konflikte wirklich wichtig sind.",
+        gesundheit: "Im Bereich Gesundheit steht die Fünf der Schwerter für innere oder äußere Spannungen, die zusätzliche Kraft kosten können. Ständiger Leistungsdruck, Konkurrenzdenken oder ungelöste Konflikte können das Wohlbefinden belasten. Die Karte ermutigt dazu, einen konstruktiven Umgang mit Belastungen zu suchen, unnötige Kämpfe loszulassen und Erholung sowie einen respektvollen Umgang mit den eigenen Grenzen ernst zu nehmen.",
+        beruf: "Beruflich steht die Fünf der Schwerter für Konkurrenz, Meinungsverschiedenheiten und Situationen, in denen persönliche Interessen aufeinanderprallen können. Ein kurzfristiger Erfolg kann langfristig wenig wert sein, wenn dabei Vertrauen oder Zusammenarbeit beschädigt werden. Die Karte lädt dazu ein, Konflikte strategisch und fair zu lösen, das eigene Ego zu hinterfragen und neben dem unmittelbaren Ergebnis auch die langfristigen Folgen des eigenen Handelns zu berücksichtigen.",
+        liebe: "In der Liebe steht die Fünf der Schwerter für Streit, verletzenden Stolz und Auseinandersetzungen, bei denen das Gewinnen wichtiger werden kann als gegenseitiges Verständnis. Worte oder Handlungen können Spuren hinterlassen, selbst wenn man sich im Moment durchgesetzt hat. Die Karte lädt dazu ein, Konflikte nicht als Wettbewerb zu betrachten, Verantwortung für den eigenen Anteil zu übernehmen und nach Lösungen zu suchen, die Respekt und Verbindung bewahren."
     },
     {
         id: 55,
         name: "Sechs der Schwerter",
         image: "images/sechs-der-schwerter.jpg",
-        meaning: "Übergang, Heilung und Aufbruch."
-    },
+        meaning: "Übergang, Heilung und Aufbruch.",
+        allgemein: "Die Sechs der Schwerter steht für Übergang, Heilung und den Aufbruch in eine ruhigere Phase. Schwierigkeiten müssen nicht vollständig vergessen sein, damit eine Veränderung beginnen kann. Die Karte lädt dazu ein, belastende Situationen schrittweise hinter sich zu lassen, gewonnene Erfahrungen mitzunehmen und sich bewusst auf einen Weg einzulassen, der mehr Klarheit, Stabilität und neue Möglichkeiten verspricht.",
+        gesundheit: "Im Bereich Gesundheit steht die Sechs der Schwerter für Erholung, Veränderung und einen schrittweisen Weg zu mehr Wohlbefinden. Fortschritte müssen nicht plötzlich geschehen, sondern können sich durch viele kleine Veränderungen entwickeln. Die Karte ermutigt dazu, hilfreiche Gewohnheiten beizubehalten, sich ausreichend Zeit für Regeneration zu geben und bei gesundheitlichen Problemen geeignete fachkundige Unterstützung in Anspruch zu nehmen.",
+        beruf: "Beruflich steht die Sechs der Schwerter für einen Übergang von einer schwierigen oder unbefriedigenden Situation zu neuen Möglichkeiten. Veränderungen können zunächst ungewohnt sein, gleichzeitig aber neue Perspektiven und bessere Bedingungen eröffnen. Die Karte lädt dazu ein, Erfahrungen aus der Vergangenheit mitzunehmen, notwendige Veränderungen anzunehmen und den nächsten beruflichen Schritt mit Ruhe und einem klaren Blick nach vorne zu gestalten.",
+        liebe: "In der Liebe steht die Sechs der Schwerter für Veränderung, Verarbeitung und den Übergang in eine neue emotionale Phase. Vergangene Schwierigkeiten können allmählich an Bedeutung verlieren, wenn sie verstanden und verarbeitet werden. Die Karte kann sowohl für einen gemeinsamen Neuanfang als auch für das Loslassen einer vergangenen Verbindung stehen und lädt dazu ein, den eigenen Weg mit Offenheit und zunehmender innerer Ruhe weiterzugehen."
+        },
     {
         id: 56,
         name: "Sieben der Schwerter",
         image: "images/sieben-der-schwerter.jpg",
-        meaning: "List, Strategie und Eigeninitiative."
+        meaning: "List, Strategie und Eigeninitiative.",
+        allgemein: "Die Sieben der Schwerter steht für List, Strategie und Eigeninitiative. Nicht jede Situation lässt sich durch direktes Vorgehen lösen, manchmal sind Planung, Zurückhaltung und ein geschickter Umgang mit den vorhandenen Möglichkeiten gefragt. Die Karte lädt dazu ein, selbstständig zu denken, die eigene Strategie bewusst zu wählen und dabei darauf zu achten, dass kluges Handeln nicht in Unehrlichkeit oder unnötige Täuschung übergeht.",
+        gesundheit: "Im Bereich Gesundheit steht die Sieben der Schwerter für einen überlegten und eigenverantwortlichen Umgang mit dem eigenen Wohlbefinden. Es kann sinnvoll sein, Gewohnheiten zu beobachten, verschiedene Möglichkeiten zu prüfen und eine Strategie zu entwickeln, die zur eigenen Situation passt. Die Karte ermutigt dazu, ehrlich mit sich selbst zu bleiben, verlässliche Informationen einzubeziehen und gesundheitliche Probleme nicht zu verdrängen oder zu umgehen.",
+        beruf: "Beruflich steht die Sieben der Schwerter für strategisches Denken, Selbstständigkeit und die Fähigkeit, ungewöhnliche Lösungswege zu erkennen. Nicht jedes Vorhaben muss sofort offengelegt oder auf direktem Weg verfolgt werden, solange dabei fair und verantwortungsvoll gehandelt wird. Die Karte lädt dazu ein, vorausschauend zu planen, Ressourcen geschickt einzusetzen und die eigene Initiative mit klarem Blick für mögliche Konsequenzen zu verbinden.",
+        liebe: "In der Liebe steht die Sieben der Schwerter für Vorsicht, Eigenständigkeit und die Frage, wie offen mit Gedanken und Gefühlen umgegangen wird. Zurückhaltung kann manchmal sinnvoll sein, doch dauerhaftes Ausweichen oder Unehrlichkeit kann Vertrauen erschweren. Die Karte lädt dazu ein, die eigenen Absichten ehrlich zu prüfen, persönliche Grenzen zu respektieren und Beziehungen möglichst auf Klarheit und gegenseitigem Vertrauen aufzubauen."
     },
     {
         id: 57,
         name: "Acht der Schwerter",
         image: "images/acht-der-schwerter.jpg",
-        meaning: "Einschränkung, Zweifel und Selbstblockade."
+        meaning: "Einschränkung, Zweifel und Selbstblockade.",
+        allgemein: "Die Acht der Schwerter steht für Einschränkung, Zweifel und das Gefühl, in einer Situation festzustecken. Manche Grenzen können tatsächlich vorhanden sein, während andere durch Ängste, Annahmen oder festgefahrene Gedanken stärker erscheinen, als sie sind. Die Karte lädt dazu ein, die eigene Situation aus verschiedenen Perspektiven zu betrachten, zwischen realen und angenommenen Hindernissen zu unterscheiden und nach kleinen Handlungsmöglichkeiten zu suchen.",
+        gesundheit: "Im Bereich Gesundheit steht die Acht der Schwerter für Unsicherheit, belastende Gedanken und das Gefühl, nur begrenzten Einfluss auf das eigene Wohlbefinden zu haben. Es kann hilfreich sein, die Situation in überschaubare Schritte zu unterteilen und sich auf das zu konzentrieren, was tatsächlich beeinflusst werden kann. Die Karte ermutigt dazu, Unterstützung anzunehmen und bei gesundheitlichen Problemen verlässliche Informationen sowie fachkundigen Rat einzubeziehen.",
+        beruf: "Beruflich steht die Acht der Schwerter für Zweifel, eingeschränkte Möglichkeiten oder das Gefühl, beruflich nicht weiterzukommen. Äußere Bedingungen können Grenzen setzen, doch manchmal verhindern auch eigene Annahmen oder Unsicherheit den nächsten Schritt. Die Karte lädt dazu ein, vorhandene Möglichkeiten neu zu prüfen, konkrete Hindernisse von Befürchtungen zu unterscheiden und durch kleine, realistische Schritte wieder mehr Handlungsspielraum zu gewinnen.",
+        liebe: "In der Liebe steht die Acht der Schwerter für Unsicherheit, Zurückhaltung und Gedanken, die Nähe oder Entscheidungen erschweren können. Ängste vor Zurückweisung, Verletzung oder Veränderung können eine Verbindung stärker begrenzen als die tatsächliche Situation. Die Karte lädt dazu ein, die eigenen Befürchtungen ehrlich zu betrachten, offene Kommunikation zuzulassen und herauszufinden, welche Grenzen wirklich bestehen und welche möglicherweise überwunden werden können."
     },
     {
         id: 58,
         name: "Neun der Schwerter",
         image: "images/neun-der-schwerter.jpg",
-        meaning: "Sorgen, Ängste und schlaflose Nächte."
+        meaning: "Sorgen, Ängste und schlaflose Nächte.",
+        allgemein: "Die Neun der Schwerter steht für Sorgen, Ängste und Gedanken, die besonders in stillen Momenten überwältigend wirken können. Befürchtungen können sich im eigenen Kopf verstärken und eine Situation bedrohlicher erscheinen lassen, als sie tatsächlich ist. Die Karte lädt dazu ein, Sorgen bewusst wahrzunehmen, Gedanken von überprüfbaren Tatsachen zu unterscheiden und Probleme nicht allein mit sich selbst auszutragen, wenn Unterstützung hilfreich sein kann.",
+        gesundheit: "Im Bereich Gesundheit steht die Neun der Schwerter für mentale Belastung, Sorgen und die Bedeutung ausreichender Erholung. Anhaltendes Grübeln oder Stress kann sich auch auf Schlaf und körperliches Wohlbefinden auswirken. Die Karte ermutigt dazu, Belastungen ernst zu nehmen, hilfreiche Möglichkeiten zur Entspannung und Unterstützung zu nutzen und bei anhaltenden oder starken Beschwerden fachkundigen Rat einzubeziehen.",
+        beruf: "Beruflich steht die Neun der Schwerter für Sorgen, Leistungsdruck und die Tendenz, mögliche Probleme gedanklich immer wieder durchzuspielen. Fehler oder zukünftige Herausforderungen können dadurch größer erscheinen, als sie bei nüchterner Betrachtung sind. Die Karte lädt dazu ein, konkrete Probleme von Befürchtungen zu unterscheiden, lösbare Aufgaben Schritt für Schritt anzugehen und sich bei Bedarf Unterstützung oder eine zusätzliche Perspektive zu holen.",
+        liebe: "In der Liebe steht die Neun der Schwerter für Sorgen, Unsicherheit und die Angst vor negativen Entwicklungen. Zweifel an einer Verbindung oder belastende Erfahrungen können zu intensivem Grübeln führen, ohne dass jeder Gedanke die tatsächliche Situation widerspiegelt. Die Karte lädt dazu ein, Gefühle ernst zu nehmen, Vermutungen nicht automatisch als Tatsachen zu behandeln und durch ehrliche Kommunikation oder persönliche Reflexion mehr Klarheit entstehen zu lassen."
     },
     {
         id: 59,
         name: "Zehn der Schwerter",
         image: "images/zehn-der-schwerter.jpg",
-        meaning: "Ende, Zusammenbruch und Neuanfang."
+        meaning: "Ende, Zusammenbruch und Neuanfang.",
+        allgemein: "Die Zehn der Schwerter steht für ein deutliches Ende, einen Zusammenbruch und die Möglichkeit eines anschließenden Neuanfangs. Eine Situation kann ihren endgültigen Punkt erreicht haben, sodass ein Festhalten kaum noch sinnvoll erscheint. Die Karte lädt dazu ein, anzuerkennen, was vorbei ist, notwendige Konsequenzen zu ziehen und zu erkennen, dass mit jedem Abschluss auch Raum für eine neue Entwicklung entstehen kann.",
+        gesundheit: "Im Bereich Gesundheit steht die Zehn der Schwerter für Erschöpfung, Belastungsgrenzen und die Notwendigkeit, eine ungünstige Entwicklung nicht einfach fortzusetzen. Sie kann dazu anregen, bisherige Gewohnheiten oder Belastungen neu zu betrachten und Veränderungen einzuleiten. Die Karte ermutigt dazu, Erholung ernst zu nehmen, auf deutliche Signale des Körpers zu achten und bei gesundheitlichen Beschwerden fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht die Zehn der Schwerter für das Ende einer Aufgabe, eines Projekts oder einer bisherigen beruflichen Richtung. Ein Rückschlag kann zunächst endgültig wirken, gleichzeitig aber deutlich machen, dass ein anderer Weg notwendig oder sinnvoll geworden ist. Die Karte lädt dazu ein, aus vergangenen Erfahrungen zu lernen, einen Abschluss bewusst anzunehmen und die dadurch entstehenden Möglichkeiten für einen neuen Aufbau zu nutzen.",
+        liebe: "In der Liebe steht die Zehn der Schwerter für einen schmerzhaften Abschluss, eine tiefgreifende Veränderung oder das Ende einer bisherigen Beziehungsdynamik. Nicht immer bedeutet dies das Ende einer Beziehung, doch etwas kann in seiner bisherigen Form nicht unverändert weitergehen. Die Karte lädt dazu ein, schwierige Wahrheiten anzuerkennen, Vergangenes zu verarbeiten und dadurch langfristig Raum für einen ehrlicheren Neuanfang zu schaffen."
     },
     {
         id: 60,
         name: "Bube der Schwerter",
         image: "images/bube-der-schwerter.jpg",
-        meaning: "Neugier, Wachsamkeit und Wissensdurst."
+        meaning: "Neugier, Wachsamkeit und Wissensdurst.",
+        allgemein: "Der Bube der Schwerter steht für Neugier, Wachsamkeit und den Wunsch, Dinge genauer zu verstehen. Neue Informationen oder Fragen können dazu anregen, eine Situation aus verschiedenen Blickwinkeln zu betrachten und bestehende Annahmen zu überprüfen. Die Karte lädt dazu ein, aufmerksam zu beobachten, offen zu lernen und den eigenen Wissensdurst zu nutzen, ohne vorschnell aus unvollständigen Informationen Schlussfolgerungen zu ziehen.",
+        gesundheit: "Im Bereich Gesundheit steht der Bube der Schwerter für Aufmerksamkeit, Informationssuche und eine bewusste Beobachtung des eigenen Wohlbefindens. Neugier kann dabei helfen, den eigenen Körper und hilfreiche Gewohnheiten besser zu verstehen. Die Karte ermutigt dazu, Fragen zu stellen und verlässliche Informationen einzubeziehen, gleichzeitig aber nicht jede Beobachtung überzubewerten und bei gesundheitlichen Beschwerden fachkundigen Rat zu suchen.",
+        beruf: "Beruflich steht der Bube der Schwerter für Lernbereitschaft, geistige Beweglichkeit und die Fähigkeit, neue Informationen schnell aufzunehmen. Fragen, Recherche und aufmerksame Beobachtung können dabei helfen, Fähigkeiten zu erweitern und neue Möglichkeiten zu erkennen. Die Karte lädt dazu ein, neugierig zu bleiben, Ideen kritisch zu prüfen und erworbenes Wissen zunehmend in praktische Erfahrungen und konkrete Ergebnisse umzusetzen.",
+        liebe: "In der Liebe steht der Bube der Schwerter für Neugier, Aufmerksamkeit und den Wunsch, einen anderen Menschen oder eine bestehende Verbindung besser zu verstehen. Offene Gespräche und ehrliches Interesse können neue Erkenntnisse bringen und Nähe fördern. Die Karte erinnert jedoch daran, nicht jede Kleinigkeit zu analysieren oder vorschnelle Vermutungen anzustellen, sondern Fragen direkt und respektvoll miteinander zu klären."
     },
     {
         id: 61,
         name: "Ritter der Schwerter",
         image: "images/ritter-der-schwerter.jpg",
-        meaning: "Entschlossenheit, Tempo und Mut."
+        meaning: "Entschlossenheit, Tempo und Mut.",
+        allgemein: "Der Ritter der Schwerter steht für Entschlossenheit, Tempo und den Mut, eine klare Richtung einzuschlagen. Eine Idee oder Überzeugung kann starke Energie freisetzen und dazu führen, Hindernisse direkt anzugehen. Die Karte lädt dazu ein, entschlossen zu handeln und die eigene geistige Stärke zu nutzen, ohne durch Ungeduld oder vorschnelle Entscheidungen wichtige Details und mögliche Konsequenzen zu übersehen.",
+        gesundheit: "Im Bereich Gesundheit steht der Ritter der Schwerter für Tatkraft, Entschlossenheit und den Wunsch, schnell etwas zu verändern. Eine klare Entscheidung kann helfen, hilfreiche Gewohnheiten konsequent anzugehen und notwendige Schritte nicht länger aufzuschieben. Die Karte ermutigt dazu, Motivation sinnvoll einzusetzen und gleichzeitig ein angemessenes Tempo zu wählen, auf die eigenen Grenzen zu achten und bei gesundheitlichen Problemen fachkundigen Rat einzubeziehen.",
+        beruf: "Beruflich steht der Ritter der Schwerter für Ehrgeiz, schnelles Denken und entschlossenes Vorgehen. Aufgaben oder Herausforderungen können mit großer Konzentration und direkter Initiative angegangen werden. Die Karte lädt dazu ein, Chancen mutig zu verfolgen, Entscheidungen klar zu kommunizieren und vorhandene Dynamik zu nutzen, dabei jedoch sorgfältig genug zu bleiben, um Fehler durch unnötige Eile oder mangelnde Rücksicht zu vermeiden.",
+        liebe: "In der Liebe steht der Ritter der Schwerter für Direktheit, intensive Kommunikation und eine dynamische Entwicklung. Gefühle oder Absichten können schnell ausgesprochen und Entscheidungen entschlossen getroffen werden. Die Karte lädt dazu ein, ehrlich und mutig zu kommunizieren, gleichzeitig aber darauf zu achten, dass Tempo und Direktheit den anderen Menschen nicht überrollen und genügend Raum für gegenseitiges Verständnis bleibt."
     },
     {
         id: 62,
         name: "Königin der Schwerter",
         image: "images/koenigin-der-schwerter.jpg",
-        meaning: "Klugheit, Ehrlichkeit und Unabhängigkeit."
-    },
+        meaning: "Klugheit, Ehrlichkeit und Unabhängigkeit.",
+        allgemein: "Die Königin der Schwerter steht für Klugheit, Ehrlichkeit und Unabhängigkeit. Sie symbolisiert die Fähigkeit, Situationen klar zu beurteilen und Entscheidungen auf Grundlage von Erfahrung und Verstand zu treffen. Die Karte lädt dazu ein, die eigene Wahrheit respektvoll zu vertreten, gesunde Grenzen zu setzen und auch bei starken Gefühlen einen klaren Blick für die tatsächliche Situation zu bewahren.",
+        gesundheit: "Im Bereich Gesundheit steht die Königin der Schwerter für einen sachlichen, informierten und eigenverantwortlichen Umgang mit dem eigenen Wohlbefinden. Beobachtungen können hilfreich sein, wenn sie mit verlässlichen Informationen und einer realistischen Einschätzung verbunden werden. Die Karte ermutigt dazu, klare Entscheidungen zu treffen, persönliche Grenzen ernst zu nehmen und bei gesundheitlichen Fragen fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht die Königin der Schwerter für analytisches Denken, klare Kommunikation und selbstständiges Handeln. Erfahrung und ein nüchterner Blick können dabei helfen, komplexe Situationen zu verstehen und sinnvolle Entscheidungen zu treffen. Die Karte lädt dazu ein, die eigenen Fähigkeiten selbstbewusst einzusetzen, Erwartungen deutlich zu kommunizieren und unabhängig zu denken, ohne wertvolle Perspektiven anderer Menschen auszuschließen.",
+        liebe: "In der Liebe steht die Königin der Schwerter für Ehrlichkeit, Selbstständigkeit und klare persönliche Grenzen. Nähe kann besonders gut entstehen, wenn beide Menschen offen miteinander kommunizieren und ihre Individualität bewahren dürfen. Die Karte lädt dazu ein, Gefühle mit einem klaren Blick zu betrachten, eigene Bedürfnisse respektvoll auszudrücken und Beziehungen auf gegenseitiger Achtung und Aufrichtigkeit aufzubauen."    },
     {
         id: 63,
         name: "König der Schwerter",
         image: "images/koenig-der-schwerter.jpg",
-        meaning: "Logik, Autorität und klare Entscheidungen."
+        meaning: "Logik, Autorität und klare Entscheidungen.",
+        allgemein: "Der König der Schwerter steht für Logik, Autorität und die Fähigkeit, klare Entscheidungen zu treffen. Er symbolisiert einen nüchternen Blick auf Situationen und die Bereitschaft, Verantwortung für das eigene Urteil zu übernehmen. Die Karte lädt dazu ein, Fakten sorgfältig zu prüfen, Gedanken zu ordnen und Entscheidungen konsequent umzusetzen, ohne dabei Menschlichkeit und unterschiedliche Perspektiven aus den Augen zu verlieren.",
+        gesundheit: "Im Bereich Gesundheit steht der König der Schwerter für einen sachlichen, strukturierten und informierten Umgang mit dem eigenen Wohlbefinden. Klare Beobachtungen und verlässliche Informationen können dabei helfen, sinnvolle Entscheidungen zu treffen. Die Karte ermutigt dazu, gesundheitliche Fragen systematisch anzugehen, persönliche Bedürfnisse ernst zu nehmen und bei Beschwerden oder Unsicherheiten geeignete fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht der König der Schwerter für analytisches Denken, klare Führung und verantwortungsvolle Entscheidungen. Komplexe Aufgaben können durch Struktur, Fachwissen und eine nüchterne Bewertung der verfügbaren Informationen gelöst werden. Die Karte lädt dazu ein, klare Standards zu setzen, Entscheidungen nachvollziehbar zu kommunizieren und Autorität nicht durch bloße Macht, sondern durch Kompetenz, Fairness und verantwortungsbewusstes Handeln auszuüben.",
+        liebe: "In der Liebe steht der König der Schwerter für Klarheit, Ehrlichkeit und eine bewusste Gestaltung von Beziehungen. Gefühle dürfen vorhanden sein, müssen jedoch nicht jede Entscheidung bestimmen. Die Karte lädt dazu ein, Erwartungen und Grenzen offen zu kommunizieren, Konflikte möglichst sachlich und respektvoll zu lösen und eine Verbindung aufzubauen, in der emotionale Nähe mit gegenseitigem Respekt und vernünftigen Entscheidungen verbunden wird."
     },
-        {
+    {
         id: 64,
         name: "Ass der Münzen",
         image: "images/ass-der-muenzen.jpg",
-        meaning: "Neuanfang, Wohlstand und Chancen."
+        meaning: "Neuanfang, Wohlstand und Chancen.",
+        allgemein: "Das Ass der Münzen steht für einen greifbaren Neuanfang, neue Chancen und die Möglichkeit, langfristig etwas Wertvolles aufzubauen. Eine Gelegenheit kann zunächst klein erscheinen, aber durch Aufmerksamkeit und konsequentes Handeln an Bedeutung gewinnen. Die Karte lädt dazu ein, vorhandene Möglichkeiten praktisch zu nutzen, ein solides Fundament zu schaffen und Wachstum Schritt für Schritt entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht das Ass der Münzen für eine neue Grundlage und die Möglichkeit, das eigene Wohlbefinden durch praktische Veränderungen zu fördern. Kleine, realistische Gewohnheiten können langfristig eine große Wirkung entfalten. Die Karte ermutigt dazu, auf den eigenen Körper zu achten, hilfreiche Routinen aufzubauen und Gesundheit als etwas zu betrachten, das durch kontinuierliche Fürsorge und bewusste Entscheidungen unterstützt werden kann.",
+        beruf: "Beruflich steht das Ass der Münzen für neue Möglichkeiten, konkrete Chancen und den Beginn einer Entwicklung mit langfristigem Potenzial. Ein Projekt, eine Fähigkeit oder eine berufliche Gelegenheit kann die Grundlage für zukünftigen Erfolg und größere finanzielle Stabilität bilden. Die Karte lädt dazu ein, Chancen aufmerksam zu prüfen, praktische erste Schritte zu gehen und durch Geduld und konsequente Arbeit nachhaltigen Wert aufzubauen.",
+        liebe: "In der Liebe steht das Ass der Münzen für eine neue oder sich festigende Verbindung mit dem Potenzial für Stabilität und langfristiges Wachstum. Gefühle können durch Verlässlichkeit, gemeinsame Erfahrungen und konkrete Handlungen zunehmend an Tiefe gewinnen. Die Karte lädt dazu ein, Beziehungen nicht nur auf Erwartungen aufzubauen, sondern ihnen durch Zeit, Aufmerksamkeit und gegenseitige Wertschätzung ein solides Fundament zu geben."
     },
     {
         id: 65,
         name: "Zwei der Münzen",
         image: "images/zwei-der-muenzen.jpg",
-        meaning: "Balance, Anpassungsfähigkeit und Flexibilität."
+        meaning: "Balance, Anpassungsfähigkeit und Flexibilität.",
+        allgemein: "Die Zwei der Münzen steht für Balance, Anpassungsfähigkeit und einen flexiblen Umgang mit wechselnden Anforderungen. Mehrere Aufgaben, Interessen oder Lebensbereiche können gleichzeitig Aufmerksamkeit verlangen und müssen miteinander in Einklang gebracht werden. Die Karte lädt dazu ein, Prioritäten bewusst zu setzen, auf Veränderungen beweglich zu reagieren und ein Gleichgewicht zu finden, das auch unter wechselnden Bedingungen tragfähig bleibt.",
+        gesundheit: "Im Bereich Gesundheit steht die Zwei der Münzen für Ausgleich und die Fähigkeit, gesunde Gewohnheiten flexibel in den Alltag zu integrieren. Wohlbefinden muss nicht durch einen vollkommen starren Plan entstehen, sondern kann sich auch durch anpassungsfähige Routinen entwickeln. Die Karte ermutigt dazu, Aktivität, Erholung und andere Bedürfnisse miteinander auszubalancieren und Veränderungen wahrzunehmen, bevor dauerhafte Überlastung entsteht.",
+        beruf: "Beruflich steht die Zwei der Münzen für Organisation, Flexibilität und den Umgang mit mehreren Aufgaben oder Möglichkeiten gleichzeitig. Unterschiedliche Verpflichtungen können erfolgreich miteinander verbunden werden, wenn Prioritäten klar bleiben und die eigene Zeit bewusst eingesetzt wird. Die Karte lädt dazu ein, auf Veränderungen pragmatisch zu reagieren, den Überblick zu behalten und bei hoher Belastung zu entscheiden, was tatsächlich Aufmerksamkeit benötigt.",
+        liebe: "In der Liebe steht die Zwei der Münzen für die Balance zwischen Beziehung, persönlichen Bedürfnissen und anderen Bereichen des Lebens. Neue oder bestehende Verbindungen können Anpassungsfähigkeit erfordern, wenn unterschiedliche Wünsche, Termine oder Lebensrhythmen aufeinandertreffen. Die Karte lädt dazu ein, flexibel aufeinander einzugehen, offen über Bedürfnisse zu sprechen und eine Form von Nähe zu finden, die beiden Seiten genügend Raum lässt."
     },
     {
         id: 66,
         name: "Drei der Münzen",
         image: "images/drei-der-muenzen.jpg",
-        meaning: "Zusammenarbeit, Lernen und handwerkliches Können."
+        meaning: "Zusammenarbeit, Lernen und handwerkliches Können.",
+        allgemein: "Die Drei der Münzen steht für Zusammenarbeit, Lernen und die Entwicklung praktischer Fähigkeiten. Gute Ergebnisse entstehen häufig dadurch, dass Wissen, Erfahrung und unterschiedliche Stärken miteinander verbunden werden. Die Karte lädt dazu ein, die eigenen Fähigkeiten kontinuierlich weiterzuentwickeln, konstruktives Feedback anzunehmen und gemeinsam mit anderen an etwas zu arbeiten, dessen Qualität durch Sorgfalt und gegenseitige Wertschätzung wächst.",
+        gesundheit: "Im Bereich Gesundheit steht die Drei der Münzen für Lernen, kontinuierliche Entwicklung und die sinnvolle Zusammenarbeit mit anderen. Wissen über den eigenen Körper und hilfreiche Gewohnheiten kann Schritt für Schritt aufgebaut und praktisch angewendet werden. Die Karte ermutigt dazu, Erfahrungen aufmerksam auszuwerten, hilfreiche Unterstützung anzunehmen und bei gesundheitlichen Fragen mit geeigneten Fachpersonen zusammenzuarbeiten.",
+        beruf: "Beruflich steht die Drei der Münzen für Teamarbeit, Kompetenz und die Weiterentwicklung des eigenen Könnens. Fähigkeiten gewinnen an Wert, wenn sie praktisch eingesetzt, durch Erfahrung verbessert und mit den Stärken anderer verbunden werden. Die Karte lädt dazu ein, sorgfältig an der eigenen Arbeit zu feilen, von anderen zu lernen und durch verlässliche Ergebnisse zunehmend Anerkennung und neue Möglichkeiten aufzubauen.",
+        liebe: "In der Liebe steht die Drei der Münzen für gemeinsames Wachstum und die Bereitschaft, aktiv an einer Verbindung zu arbeiten. Eine Beziehung kann sich entwickeln, wenn beide Seiten ihre jeweiligen Stärken einbringen, voneinander lernen und Herausforderungen gemeinsam angehen. Die Karte lädt dazu ein, Erwartungen offen zu besprechen, gegenseitige Beiträge wertzuschätzen und Vertrauen durch kontinuierliche gemeinsame Erfahrungen aufzubauen."
     },
     {
         id: 67,
         name: "Vier der Münzen",
         image: "images/vier-der-muenzen.jpg",
-        meaning: "Sicherheit, Kontrolle und Besitz."
+        meaning: "Sicherheit, Kontrolle und Besitz.",
+        allgemein: "Die Vier der Münzen steht für Sicherheit, Kontrolle und das Festhalten an dem, was bereits erreicht oder aufgebaut wurde. Stabilität kann Schutz und Orientierung geben, doch ein zu starkes Bedürfnis nach Kontrolle kann neue Entwicklungen erschweren. Die Karte lädt dazu ein, vorhandene Ressourcen bewusst zu bewahren und gleichzeitig zu prüfen, wo mehr Vertrauen, Offenheit oder die Bereitschaft zum Loslassen sinnvoll sein könnte.",
+        gesundheit: "Im Bereich Gesundheit steht die Vier der Münzen für Stabilität, Vorsicht und den Wunsch, Kontrolle über das eigene Wohlbefinden zu behalten. Bewährte Routinen können Sicherheit geben und dabei helfen, hilfreiche Gewohnheiten langfristig aufrechtzuerhalten. Die Karte erinnert jedoch daran, flexibel auf Veränderungen zu reagieren, die eigenen Bedürfnisse wahrzunehmen und bei gesundheitlichen Fragen notwendige Unterstützung nicht aus einem übermäßigen Kontrollbedürfnis heraus abzulehnen.",
+        beruf: "Beruflich steht die Vier der Münzen für Sicherheit, finanzielle Stabilität und den sorgfältigen Umgang mit vorhandenen Ressourcen. Es kann sinnvoll sein, Erreichtes zu schützen, Rücklagen zu bilden und Risiken bewusst abzuwägen. Die Karte lädt gleichzeitig dazu ein, nicht aus Angst vor Verlust jede Veränderung zu vermeiden, sondern zwischen sinnvoller Vorsicht und Möglichkeiten zu unterscheiden, die langfristiges Wachstum ermöglichen könnten.",
+        liebe: "In der Liebe steht die Vier der Münzen für das Bedürfnis nach Sicherheit, Beständigkeit und emotionaler Kontrolle. Der Wunsch, eine Verbindung zu bewahren, kann Halt geben, aber auch zu übermäßigem Festhalten oder Besitzdenken führen. Die Karte lädt dazu ein, Vertrauen aufzubauen, persönliche Grenzen zu respektieren und Nähe nicht durch Kontrolle zu sichern, sondern durch Verlässlichkeit, Offenheit und gegenseitige Freiheit."
     },
     {
         id: 68,
         name: "Fünf der Münzen",
         image: "images/fuenf-der-muenzen.jpg",
-        meaning: "Entbehrung, Sorgen und Hoffnung auf Hilfe."
+        meaning: "Entbehrung, Sorgen und Hoffnung auf Hilfe.",
+        allgemein: "Die Fünf der Münzen steht für Entbehrung, Sorgen und Phasen, in denen Sicherheit oder Unterstützung zu fehlen scheinen. Schwierigkeiten können den Blick so stark auf das Fehlende richten, dass vorhandene Möglichkeiten oder Hilfsangebote leicht übersehen werden. Die Karte lädt dazu ein, Belastungen realistisch anzuerkennen, Unterstützung nicht vorschnell auszuschließen und auch in schwierigen Zeiten nach kleinen Wegen zu mehr Stabilität und Hoffnung zu suchen.",
+        gesundheit: "Im Bereich Gesundheit steht die Fünf der Münzen für Belastung, Erschöpfung und das Gefühl, mit Schwierigkeiten möglicherweise allein zu sein. Gerade in herausfordernden Phasen kann es wichtig sein, die eigenen Bedürfnisse ernst zu nehmen und verfügbare Unterstützung anzunehmen. Die Karte ermutigt dazu, nicht aus Hoffnungslosigkeit auf notwendige Hilfe zu verzichten und bei körperlichen oder emotionalen Beschwerden geeigneten fachkundigen Rat einzubeziehen.",
+        beruf: "Beruflich steht die Fünf der Münzen für Unsicherheit, finanzielle Sorgen oder eine Phase, in der Möglichkeiten begrenzt erscheinen können. Rückschläge oder fehlende Ressourcen müssen jedoch nicht dauerhaft den weiteren Weg bestimmen. Die Karte lädt dazu ein, vorhandene Unterstützung und Alternativen zu prüfen, mit Ressourcen bewusst umzugehen und durch realistische kleine Schritte wieder mehr Sicherheit und neue Möglichkeiten aufzubauen.",
+        liebe: "In der Liebe steht die Fünf der Münzen für Einsamkeit, Unsicherheit oder das Gefühl, emotional nicht ausreichend gesehen oder unterstützt zu werden. Solche Phasen können sowohl innerhalb einer Beziehung als auch außerhalb einer Partnerschaft auftreten. Die Karte lädt dazu ein, Bedürfnisse und Sorgen offen wahrzunehmen, Unterstützung zuzulassen und nicht automatisch davon auszugehen, dass eine schwierige emotionale Situation dauerhaft bestehen bleiben muss."
     },
     {
         id: 69,
         name: "Sechs der Münzen",
         image: "images/sechs-der-muenzen.jpg",
-        meaning: "Großzügigkeit, Ausgleich und Unterstützung."
+        meaning: "Großzügigkeit, Ausgleich und Unterstützung.",
+        allgemein: "Die Sechs der Münzen steht für Großzügigkeit, Ausgleich und gegenseitige Unterstützung. Geben und Annehmen können unterschiedliche Formen haben und müssen nicht immer materieller Natur sein. Die Karte lädt dazu ein, vorhandene Ressourcen bewusst zu teilen, Hilfe anzunehmen, wenn sie benötigt wird, und darauf zu achten, dass Unterstützung auf eine faire und respektvolle Weise geschieht.",
+        gesundheit: "Im Bereich Gesundheit steht die Sechs der Münzen für Unterstützung, Ausgleich und die Bereitschaft, Hilfe sowohl anzunehmen als auch anderen anzubieten. Wohlbefinden muss nicht ausschließlich aus eigener Kraft entstehen, sondern kann durch ein unterstützendes Umfeld und geeignete Begleitung gefördert werden. Die Karte ermutigt dazu, eigene Bedürfnisse ernst zu nehmen und bei gesundheitlichen Fragen notwendige fachkundige Unterstützung in Anspruch zu nehmen.",
+        beruf: "Beruflich steht die Sechs der Münzen für faire Zusammenarbeit, gegenseitige Unterstützung und einen ausgewogenen Austausch von Ressourcen, Wissen oder Leistung. Hilfe, Förderung oder eine neue Gelegenheit kann Entwicklung ermöglichen, während die eigenen Fähigkeiten wiederum anderen zugutekommen können. Die Karte lädt dazu ein, berufliche Beziehungen fair zu gestalten, Wissen zu teilen und auf ein angemessenes Verhältnis zwischen Geben und Nehmen zu achten.",
+        liebe: "In der Liebe steht die Sechs der Münzen für gegenseitige Unterstützung, Aufmerksamkeit und ein ausgewogenes Verhältnis von Geben und Annehmen. Eine Verbindung kann wachsen, wenn beide Seiten bereit sind, Zeit, Zuneigung und Unterstützung einzubringen, ohne dass dauerhaft nur eine Person trägt. Die Karte lädt dazu ein, die Bedürfnisse beider Seiten wahrzunehmen und Beziehungen auf Gegenseitigkeit, Wertschätzung und freiwilliger Fürsorge aufzubauen."
     },
     {
         id: 70,
         name: "Sieben der Münzen",
         image: "images/sieben-der-muenzen.jpg",
-        meaning: "Geduld, Wachstum und langfristiger Erfolg."
+        meaning: "Geduld, Wachstum und langfristiger Erfolg.",
+        allgemein: "Die Sieben der Münzen steht für Geduld, Wachstum und die Entwicklung langfristiger Ergebnisse. Nicht jede investierte Anstrengung zeigt sofort ihre Wirkung, und manche Vorhaben benötigen Zeit, bevor Fortschritte deutlich sichtbar werden. Die Karte lädt dazu ein, bisherige Entwicklungen aufmerksam zu betrachten, Erreichtes wertzuschätzen und zu prüfen, wo weiteres Engagement sinnvoll ist und wo die eigene Vorgehensweise angepasst werden könnte.",
+        gesundheit: "Im Bereich Gesundheit steht die Sieben der Münzen für Geduld und die langfristige Wirkung kontinuierlicher Gewohnheiten. Veränderungen des Wohlbefindens entwickeln sich häufig schrittweise und lassen sich nicht immer durch schnelle Ergebnisse beurteilen. Die Karte ermutigt dazu, hilfreiche Routinen beständig fortzuführen, Fortschritte realistisch zu betrachten und bei gesundheitlichen Fragen oder anhaltenden Beschwerden geeignete fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht die Sieben der Münzen für langfristigen Aufbau, Ausdauer und die Bewertung bisheriger Fortschritte. Arbeit, Lernen oder Investitionen können bereits eine Grundlage geschaffen haben, auch wenn das gewünschte Ergebnis noch nicht vollständig erreicht ist. Die Karte lädt dazu ein, den bisherigen Weg zu überprüfen, erfolgreiche Ansätze weiterzuführen und dort Anpassungen vorzunehmen, wo Aufwand und erwarteter Nutzen nicht mehr sinnvoll zusammenpassen.",
+        liebe: "In der Liebe steht die Sieben der Münzen für Geduld, Entwicklung und die Frage, wie sich eine Verbindung langfristig entfaltet. Vertrauen und Nähe benötigen häufig Zeit und entstehen durch wiederholte gemeinsame Erfahrungen. Die Karte lädt dazu ein, wahrzunehmen, was bereits gewachsen ist, Erwartungen realistisch zu betrachten und bewusst zu entscheiden, welche Aufmerksamkeit und Energie einer bestehenden oder entstehenden Verbindung weiterhin gegeben werden soll."
     },
     {
         id: 71,
         name: "Acht der Münzen",
         image: "images/acht-der-muenzen.jpg",
-        meaning: "Fleiß, Lernen und Perfektionierung."
+        meaning: "Fleiß, Lernen und Perfektionierung.",
+        allgemein: "Die Acht der Münzen steht für Fleiß, Lernen und die kontinuierliche Verbesserung der eigenen Fähigkeiten. Fortschritt entsteht häufig nicht durch einen einzelnen großen Schritt, sondern durch wiederholte Übung und Aufmerksamkeit für Details. Die Karte lädt dazu ein, geduldig an den eigenen Fähigkeiten zu arbeiten, aus Fehlern zu lernen und durch beständige Praxis zunehmend Sicherheit und Qualität zu entwickeln.",
+        gesundheit: "Im Bereich Gesundheit steht die Acht der Münzen für Beständigkeit, Übung und den Aufbau hilfreicher Gewohnheiten. Kleine Maßnahmen können durch regelmäßige Wiederholung langfristig einen wichtigen Beitrag zum Wohlbefinden leisten. Die Karte ermutigt dazu, auf nachhaltige Routinen statt auf schnelle Lösungen zu setzen, Entwicklungen aufmerksam zu beobachten und bei gesundheitlichen Fragen verlässliche Informationen oder fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht die Acht der Münzen für konzentriertes Arbeiten, Lernen und die zunehmende Beherrschung eines Fachgebiets. Fähigkeiten entwickeln sich durch praktische Erfahrung, Wiederholung und die Bereitschaft, die eigene Arbeit immer wieder zu verbessern. Die Karte lädt dazu ein, sorgfältig zu arbeiten, konstruktives Feedback zu nutzen und langfristig Kompetenz aufzubauen, die sich in der Qualität der eigenen Ergebnisse widerspiegelt.",
+        liebe: "In der Liebe steht die Acht der Münzen für Aufmerksamkeit, Beständigkeit und die Bereitschaft, in eine Verbindung zu investieren. Gute Beziehungen entstehen häufig durch viele kleine Handlungen, ehrliche Kommunikation und die Bereitschaft, gemeinsam zu lernen. Die Karte lädt dazu ein, sich bewusst mit den eigenen Beziehungsmustern auseinanderzusetzen und Nähe durch kontinuierliche Wertschätzung und gegenseitiges Engagement wachsen zu lassen."
     },
     {
         id: 72,
         name: "Neun der Münzen",
         image: "images/neun-der-muenzen.jpg",
-        meaning: "Unabhängigkeit, Wohlstand und Zufriedenheit."
+        meaning: "Unabhängigkeit, Wohlstand und Zufriedenheit.",
+        allgemein: "Die Neun der Münzen steht für Unabhängigkeit, Wohlstand und die Zufriedenheit mit dem, was durch eigene Entwicklung entstanden ist. Sie erinnert daran, erreichte Fortschritte bewusst wahrzunehmen und die Früchte der eigenen Arbeit auch genießen zu können. Die Karte lädt dazu ein, Selbstständigkeit und persönliche Sicherheit weiterzuentwickeln, ohne dabei Dankbarkeit, Genuss und die Verbindung zu anderen Menschen aus den Augen zu verlieren.",
+        gesundheit: "Im Bereich Gesundheit steht die Neun der Münzen für Wohlbefinden, Selbstfürsorge und einen eigenverantwortlichen Umgang mit den eigenen Bedürfnissen. Ein angenehmes Umfeld und langfristig aufgebaute Gewohnheiten können dazu beitragen, sich im eigenen Körper und Alltag wohler zu fühlen. Die Karte ermutigt dazu, Fortschritte wertzuschätzen, sich bewusst Erholung und Genuss zu erlauben und Gesundheit weiterhin aufmerksam zu pflegen.",
+        beruf: "Beruflich steht die Neun der Münzen für Selbstständigkeit, erreichte Kompetenz und die Früchte langfristiger Arbeit. Fähigkeiten, Erfahrung oder finanzielle Entwicklungen können zunehmend mehr Freiheit und Sicherheit ermöglichen. Die Karte lädt dazu ein, bisherige Erfolge anzuerkennen, die eigene Unabhängigkeit weiter auszubauen und gleichzeitig sorgfältig mit den Ressourcen und Möglichkeiten umzugehen, die durch die eigene Arbeit entstanden sind.",
+        liebe: "In der Liebe steht die Neun der Münzen für Selbstständigkeit, Selbstwert und die Fähigkeit, auch unabhängig von einer Partnerschaft ein erfülltes Leben zu führen. Eine Verbindung kann besonders bereichernd sein, wenn sie aus freier Entscheidung entsteht und nicht die gesamte Grundlage des eigenen Wohlbefindens bilden muss. Die Karte lädt dazu ein, Nähe zu genießen und gleichzeitig die eigene Persönlichkeit, Freiheit und persönlichen Interessen zu bewahren."
     },
     {
         id: 73,
         name: "Zehn der Münzen",
         image: "images/zehn-der-muenzen.jpg",
-        meaning: "Beständigkeit, Familie und langfristiger Erfolg."
+        meaning: "Beständigkeit, Familie und langfristiger Erfolg.",
+        allgemein: "Die Zehn der Münzen steht für Beständigkeit, Sicherheit und langfristig aufgebauten Erfolg. Sie verweist auf Werte und Strukturen, die über den unmittelbaren Moment hinaus Bestand haben und auch anderen Menschen zugutekommen können. Die Karte lädt dazu ein, langfristig zu denken, vorhandene Grundlagen wertzuschätzen und etwas aufzubauen oder zu bewahren, das Stabilität, Verbundenheit und nachhaltigen Wert schafft.",
+        gesundheit: "Im Bereich Gesundheit steht die Zehn der Münzen für langfristige Stabilität und Gewohnheiten, die das Wohlbefinden über längere Zeit unterstützen können. Ein verlässliches Umfeld und nachhaltige Routinen können dabei eine wichtige Grundlage bilden. Die Karte ermutigt dazu, Gesundheit langfristig zu betrachten, hilfreiche Strukturen zu pflegen und bei gesundheitlichen Fragen sowohl persönliche Erfahrungen als auch geeignete fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht die Zehn der Münzen für nachhaltigen Erfolg, finanzielle Stabilität und den Aufbau langfristiger Werte. Kontinuierliche Arbeit kann zu Ergebnissen führen, die über kurzfristige Erfolge hinaus Sicherheit und neue Möglichkeiten schaffen. Die Karte lädt dazu ein, vorausschauend zu planen, vorhandene Ressourcen verantwortungsvoll einzusetzen und berufliche Entscheidungen auch danach zu beurteilen, welchen langfristigen Wert sie für das eigene Leben und andere schaffen können.",
+        liebe: "In der Liebe steht die Zehn der Münzen für Beständigkeit, gemeinsame Werte und eine Verbindung mit langfristigem Potenzial. Familie, ein gemeinsames Zuhause oder andere Formen dauerhafter Verbundenheit können dabei eine besondere Bedeutung erhalten. Die Karte lädt dazu ein, Beziehungen auf Vertrauen und Verlässlichkeit aufzubauen und gemeinsam Strukturen zu entwickeln, die sowohl Nähe als auch langfristige Sicherheit ermöglichen."
     },
     {
         id: 74,
         name: "Bube der Münzen",
         image: "images/bube-der-muenzen.jpg",
-        meaning: "Lernbereitschaft, Neugier und neue Möglichkeiten."
-    },
+        meaning: "Lernbereitschaft, Neugier und neue Möglichkeiten.",
+        allgemein: "Der Bube der Münzen steht für Lernbereitschaft, Neugier und neue Möglichkeiten mit praktischem Potenzial. Eine Idee oder Gelegenheit kann den Ausgangspunkt für eine Entwicklung bilden, wenn sie mit Aufmerksamkeit und Geduld verfolgt wird. Die Karte lädt dazu ein, offen für neues Wissen zu bleiben, erste praktische Erfahrungen zu sammeln und aus kleinen Anfängen Schritt für Schritt etwas Wertvolles entstehen zu lassen.",
+        gesundheit: "Im Bereich Gesundheit steht der Bube der Münzen für Lernbereitschaft und die Möglichkeit, neue hilfreiche Gewohnheiten zu entwickeln. Wissen über den eigenen Körper, Ernährung, Bewegung oder Erholung kann dazu beitragen, bewusster mit dem eigenen Wohlbefinden umzugehen. Die Karte ermutigt dazu, Veränderungen realistisch und neugierig auszuprobieren, Erfahrungen zu sammeln und bei gesundheitlichen Fragen verlässliche Informationen oder fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht der Bube der Münzen für Lernen, praktische Erfahrung und neue Chancen zur persönlichen Entwicklung. Eine Ausbildung, ein Projekt oder eine neue Aufgabe kann die Möglichkeit bieten, Fähigkeiten aufzubauen und langfristig größeren Wert zu schaffen. Die Karte lädt dazu ein, neugierig zu bleiben, sorgfältig zu lernen und Wissen möglichst früh praktisch anzuwenden, damit aus ersten Erfahrungen zunehmend echte Kompetenz entstehen kann.",
+        liebe: "In der Liebe steht der Bube der Münzen für neugieriges Kennenlernen, Verlässlichkeit und eine Verbindung, die sich langsam entwickeln kann. Statt großer Versprechen können kleine, konkrete Zeichen von Interesse und Aufmerksamkeit besondere Bedeutung haben. Die Karte lädt dazu ein, einer neuen oder bestehenden Verbindung Zeit zu geben, den anderen Menschen aufmerksam kennenzulernen und Vertrauen durch beständiges und ehrliches Verhalten wachsen zu lassen."
+},
     {
         id: 75,
         name: "Ritter der Münzen",
         image: "images/ritter-der-muenzen.jpg",
-        meaning: "Ausdauer, Verantwortung und Zuverlässigkeit."
+        meaning: "Ausdauer, Verantwortung und Zuverlässigkeit.",
+        allgemein: "Der Ritter der Münzen steht für Ausdauer, Verantwortung und Zuverlässigkeit. Fortschritt entsteht hier weniger durch schnelle Veränderungen als durch beständiges Handeln und die Bereitschaft, einen eingeschlagenen Weg konsequent weiterzugehen. Die Karte lädt dazu ein, Verpflichtungen ernst zu nehmen, geduldig an den eigenen Zielen zu arbeiten und darauf zu vertrauen, dass kontinuierliche kleine Schritte langfristig bedeutende Ergebnisse hervorbringen können.",
+        gesundheit: "Im Bereich Gesundheit steht der Ritter der Münzen für Beständigkeit, Geduld und einen verantwortungsvollen Umgang mit dem eigenen Wohlbefinden. Regelmäßige Bewegung, Erholung und andere hilfreiche Gewohnheiten können langfristig wichtiger sein als kurzfristige intensive Veränderungen. Die Karte ermutigt dazu, realistische Routinen aufzubauen, sie zuverlässig fortzuführen und bei gesundheitlichen Fragen geeignete fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht der Ritter der Münzen für Zuverlässigkeit, Ausdauer und sorgfältige Arbeit. Langfristiger Erfolg kann entstehen, wenn Aufgaben gewissenhaft erledigt und Fähigkeiten kontinuierlich weiterentwickelt werden. Die Karte lädt dazu ein, Verantwortung zu übernehmen, auch weniger aufregende Schritte konsequent auszuführen und durch beständige Qualität eine Grundlage für Vertrauen, Kompetenz und zukünftige Möglichkeiten zu schaffen.",
+        liebe: "In der Liebe steht der Ritter der Münzen für Verlässlichkeit, Geduld und die Bereitschaft, eine Verbindung langfristig aufzubauen. Gefühle zeigen sich möglicherweise weniger durch große Gesten als durch beständige Aufmerksamkeit und konkrete Handlungen. Die Karte lädt dazu ein, Vertrauen Schritt für Schritt wachsen zu lassen, Vereinbarungen ernst zu nehmen und einer Beziehung die notwendige Zeit für eine stabile Entwicklung zu geben.",
     },
     {
         id: 76,
         name: "Königin der Münzen",
         image: "images/koenigin-der-muenzen.jpg",
-        meaning: "Fürsorge, Bodenständigkeit und Wohlstand."
+        meaning: "Fürsorge, Bodenständigkeit und Wohlstand.",
+        allgemein: "Die Königin der Münzen steht für Fürsorge, Bodenständigkeit und die Fähigkeit, Wohlstand und Sicherheit bewusst zu gestalten. Sie verbindet praktische Vernunft mit einem Gespür dafür, was Menschen und Projekte benötigen, um sich gut entwickeln zu können. Die Karte lädt dazu ein, vorhandene Ressourcen sinnvoll einzusetzen, für sich selbst und andere zu sorgen und dabei ein stabiles, angenehmes und nachhaltiges Umfeld zu schaffen.",
+        gesundheit: "Im Bereich Gesundheit steht die Königin der Münzen für Selbstfürsorge, Bodenständigkeit und einen praktischen Umgang mit dem eigenen Wohlbefinden. Ernährung, Bewegung, Erholung und ein unterstützendes Umfeld können gemeinsam eine stabile Grundlage schaffen. Die Karte ermutigt dazu, den eigenen Körper aufmerksam und respektvoll zu behandeln, hilfreiche Routinen zu pflegen und bei gesundheitlichen Fragen geeignete fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht die Königin der Münzen für Kompetenz, Verantwortungsbewusstsein und einen geschickten Umgang mit praktischen und finanziellen Ressourcen. Gute Ergebnisse können entstehen, wenn wirtschaftliches Denken mit Sorgfalt und einem Blick für die Bedürfnisse anderer verbunden wird. Die Karte lädt dazu ein, Fähigkeiten zuverlässig einzusetzen, langfristigen Wert aufzubauen und Erfolg nicht nur an kurzfristigen Ergebnissen, sondern auch an Stabilität und Nachhaltigkeit zu messen.",
+        liebe: "In der Liebe steht die Königin der Münzen für Wärme, Verlässlichkeit und eine bodenständige Form der Zuneigung. Nähe kann durch Fürsorge, Aufmerksamkeit und die Bereitschaft entstehen, dem anderen im Alltag einen sicheren und angenehmen Raum zu geben. Die Karte lädt dazu ein, Beziehungen praktisch und emotional zu pflegen, gegenseitige Bedürfnisse ernst zu nehmen und dabei auch die eigene Selbstständigkeit und Selbstfürsorge zu bewahren.",
     },
     {
         id: 77,
         name: "König der Münzen",
         image: "images/koenig-der-muenzen.jpg",
-        meaning: "Erfolg, Stabilität und Führungsstärke."
+        meaning: "Erfolg, Stabilität und Führungsstärke.",
+        allgemein: "Der König der Münzen steht für Erfolg, Stabilität und die Fähigkeit, langfristig tragfähige Strukturen aufzubauen. Erfahrung, Verantwortungsbewusstsein und ein sinnvoller Umgang mit Ressourcen können Sicherheit und Wohlstand entstehen lassen. Die Karte lädt dazu ein, erreichte Erfolge verantwortungsvoll zu nutzen, langfristig zu denken und Führung nicht nur durch Autorität, sondern auch durch Verlässlichkeit und die Fähigkeit zu zeigen, nachhaltigen Wert zu schaffen.",
+        gesundheit: "Im Bereich Gesundheit steht der König der Münzen für Stabilität, Verantwortung und einen langfristig orientierten Umgang mit dem eigenen Wohlbefinden. Verlässliche Routinen und ein bewusst gestalteter Alltag können eine solide Grundlage für körperliche und mentale Gesundheit bilden. Die Karte ermutigt dazu, vorhandene Ressourcen sinnvoll einzusetzen, Gesundheit dauerhaft zu pflegen und bei Beschwerden oder Unsicherheiten geeignete fachkundige Unterstützung einzubeziehen.",
+        beruf: "Beruflich steht der König der Münzen für Erfolg, wirtschaftliche Kompetenz und die Fähigkeit, Verantwortung für langfristige Entwicklungen zu übernehmen. Erfahrung und ein kluger Umgang mit Zeit, Geld und anderen Ressourcen können zu nachhaltiger Stabilität führen. Die Karte lädt dazu ein, Entscheidungen vorausschauend zu treffen, Qualität und Verlässlichkeit zu fördern und beruflichen oder finanziellen Erfolg so aufzubauen, dass daraus langfristiger Wert entsteht.",
+        liebe: "In der Liebe steht der König der Münzen für Stabilität, Verlässlichkeit und die Bereitschaft, Verantwortung für eine Verbindung zu übernehmen. Sicherheit kann durch beständige Zuneigung, gegenseitige Unterstützung und konkrete gemeinsame Entscheidungen entstehen. Die Karte lädt dazu ein, Beziehungen auf einem soliden Fundament aufzubauen, langfristige Wünsche offen miteinander zu besprechen und materielle Sicherheit mit emotionaler Wärme und gegenseitigem Respekt zu verbinden."
     }
 ];
