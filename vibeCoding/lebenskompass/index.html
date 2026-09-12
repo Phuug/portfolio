@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebenskompass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="app">
+        <header>
+            <p class="eyebrow">Wo stehst du gerade?</p>
+            <h1>Lebenskompass</h1>
+            <p class="intro">
+                Bewerte deine Lebensbereiche und finde einen kleinen nächsten Schritt.
+            </p>
+        </header>
+
+        <section class="life-areas">
+            <article class="life-card">
+                <label for="faith">Glaube & Spiritualität</label>
+                <div class="rating">
+                    <input type="range" id="faith" min="1" max="10" value="5">
+                    <output for="faith">5</output>
+                </div>
+                <textarea
+                    id="faith-note"
+                    placeholder="Was beschäftigt dich hier?"
+                ></textarea>
+            </article>
+
+            <article class="life-card">
+                <label for="growth">Persönlichkeitsentwicklung</label>
+                <div class="rating">
+                    <input type="range" id="growth" min="1" max="10" value="5">
+                    <output for="growth">5</output>
+                </div>
+                <textarea
+                    id="growth-note"
+                    placeholder="Was beschäftigt dich hier?"
+                ></textarea>
+            </article>
+
+            <article class="life-card">
+                <label for="health">Gesundheit</label>
+                <div class="rating">
+                    <input type="range" id="health" min="1" max="10" value="5">
+                    <output for="health">5</output>
+                </div>
+                <textarea
+                    id="health-note"
+                    placeholder="Was beschäftigt dich hier?"
+                ></textarea>
+            </article>
+
+            <article class="life-card">
+                <label for="wealth">Reichtum & Beruf</label>
+                <div class="rating">
+                    <input type="range" id="wealth" min="1" max="10" value="5">
+                    <output for="wealth">5</output>
+                </div>
+                <textarea
+                    id="wealth-note"
+                    placeholder="Was beschäftigt dich hier?"
+                ></textarea>
+            </article>
+
+            <article class="life-card">
+                <label for="love">Liebe & Beziehungen</label>
+                <div class="rating">
+                    <input type="range" id="love" min="1" max="10" value="5">
+                    <output for="love">5</output>
+                </div>
+                <textarea
+                    id="love-note"
+                    placeholder="Was beschäftigt dich hier?"
+                ></textarea>
+            </article>
+        </section>
+
+        <button id="evaluate-button" type="button">
+            Kompass auswerten
+        </button>
+
+        <section id="result" class="result" aria-live="polite">
+            <p>Deine Auswertung erscheint hier.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
