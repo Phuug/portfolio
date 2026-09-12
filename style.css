@@ -201,38 +201,27 @@ footer p {
     width: 90%;
     height: 90%;
 }
-
 .aiProjects {
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
 }
 
-.aiProject {    
-    width: 92%;
-    height: 90%;
-    aspect-ratio: 9/6;
-}
-
-.aiProject img {
-    border: 1px solid rgba(128, 128, 128, 0.45);
-    border-radius: 5px;
-    width: 98%;
-    height: 98%;
-}
-
-.mainAiProject {    
-    width: 95%;
-    height: 90%;
-    aspect-ratio: 9/6;
-    grid-row: 2/4;
-    grid-column: 1/3;
-}
-
-.mainAiProject img {
-    border: 1px solid rgba(128, 128, 128, 0.45);
-    border-radius: 5px;
+.aiProject,
+.mainAiProject {
     width: 100%;
-    height: 100%;
+}
+
+.mainAiProject {
+    grid-column: 1 / -1;
+}
+
+.aiProject img,
+.mainAiProject img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(128, 128, 128, 0.45);
+    border-radius: 5px;
 }
